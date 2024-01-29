@@ -4,17 +4,34 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center lg:justify-start  pt-10 px-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-amber-50  text-md lg:flex">
-        <ul className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 gap-4">
-          <li className="text-gray-300 hover:text-[#94a3b8] cursor-pointer">Desarrollo</li>
-          <li className="text-gray-300 hover:text-[#94a3b8] cursor-pointer">Creaciones</li>
-          <li className="text-gray-300 hover:text-[#94a3b8] cursor-pointer">Estudios</li>
+        <ul className="fixed antialiased md:subpixel-antialiased left-0 top-0 flex w-full justify-between  border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-2 lg:dark:bg-zinc-800/30 gap-4">
           <li className="cursor-pointer">
-            <div className="image-container animate-pulse">
+            <div className="image-container ml-10 block lg:hidden">
+              <Image
+                src="/svgs/menu.svg"
+                alt="gramaphenia Logo"
+                width={40}
+                height={40}
+                priority
+              />
+            </div>
+          </li>
+          <li className="hidden lg:block text-gray-300 hover:text-[#aedbfc] hover:bg-gray-800/50 px-4 py-2 rounded-lg cursor-pointer">
+            Desarrollo
+          </li>
+          <li className="hidden lg:block text-gray-300 hover:text-[#aedbfc] hover:bg-gray-800/50 px-4 py-2 rounded-lg cursor-pointer">
+            Creaciones
+          </li>
+          <li className="hidden lg:block text-gray-300 hover:text-[#aedbfc] hover:bg-gray-800/50 px-4 py-2 rounded-lg cursor-pointer">
+            Estudios
+          </li>
+          <li className="cursor-pointer">
+            <div className="image-container mr-10 lg:mr-0 animate-pulse ">
               <Image
                 src="/contact.svg"
                 alt="gramaphenia Logo"
-                width={24}
-                height={24}
+                width={40}
+                height={40}
                 priority
               />
             </div>
@@ -32,20 +49,20 @@ export default function Home() {
               src="/gramaphenia.svg"
               alt="gramaphenia Logo"
               className="dark:invert"
-              width={36}
-              height={36}
+              width={30}
+              height={30}
               priority
             />
           </a>
         </div>
       </div>
       <figure className="">
-        <p className="flex justify-center align-middle text-balance text-5xl w-[300px] lg:text-7xl text-gray-200/80 font-extrabold text-center lg:text-left mt-36 lg:mt-[12.5%]  lg:w-[1200px] tracking-tight">
-          Tangible y Virtual, Una Visión.
+        <p className="flex justify-center align-middle text-balance text-5xl w-[300px] lg:text-7xl text-gray-200/80 font-extrabold text-center lg:text-left mt-32 lg:mt-[12.5%]  lg:w-[1200px] tracking-tight antialiased md:subpixel-antialiased">
+          Tangible y Virtual, Una Visión
         </p>
       </figure>
       <section className="">
-        <p className="pt-10 text-xl text-center text-balance text-gray-500">
+        <p className="pt-10 mb-20 text-xl text-center text-balance text-gray-500 antialiased md:subpixel-antialiased w-[300px] lg:w-[1200px]">
           La tecnología redefine cómo vivimos, trabajamos y nos relacionamos,
           creando un universo donde lo real y lo virtual convergen en{" "}
           <span className="text-gray-200">una sola experiencia</span>.

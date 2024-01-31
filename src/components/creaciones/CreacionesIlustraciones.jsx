@@ -18,7 +18,7 @@ const CreacionesIlustraciones = () => {
 
       <figure className="group text-center">
         <Image
-          src="/experiencia/uno.png"
+          src="/experiencia/ilustraciones/uno.png"
           alt="gramaphenia Logo"
           width={500}
           height={500}
@@ -26,12 +26,12 @@ const CreacionesIlustraciones = () => {
           className="border-2 opacity-60 hover:opacity-100 border-dotted border-gray-600 hover:border-gray-400 rounded-lg cursor-pointer"
         />
         <p className="group-hover:text-gray-100 text-blue-200/30 pt-5 text-lg lg:text-2xl font-mono">
-          Concepto Hexágono
+          Lineales
         </p>
       </figure>
       <figure className="group text-center">
         <Image
-          src="/experiencia/dos.png"
+          src="/experiencia/ilustraciones/dos.png"
           alt="gramaphenia Logo"
           width={500}
           height={500}
@@ -39,7 +39,7 @@ const CreacionesIlustraciones = () => {
           className="border-2 opacity-60 hover:opacity-100 border-dotted border-gray-600 hover:border-gray-400 rounded-lg cursor-pointer"
         />
         <p className="group-hover:text-gray-100 text-blue-200/30 pt-5 text-lg lg:text-2xl font-mono">
-          Di corato Luthier
+          A color
         </p>
       </figure>
       <button className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto">

@@ -68,10 +68,10 @@ export default function NavegacionMenu() {
         </li>
 
         <li className="hidden lg:block text-gray-500 hover:text-white px-4 py-2 rounded-lg cursor-pointer mr-2">
-          Desarrollo
+          Código
         </li>
         <li className="hidden lg:block text-gray-500 hover:text-white px-4 py-2 rounded-lg cursor-pointer mr-2">
-          Estudios
+          Estudio
         </li>
         <li className="cursor-pointer">
           <div className="image-container mr-10 lg:mr-0 animate-pulse ">

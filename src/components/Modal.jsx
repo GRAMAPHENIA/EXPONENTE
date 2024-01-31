@@ -13,7 +13,7 @@ const Modal = () => {
           Desarrolo web
         </Link>
         <Link href="/grafico" className="m-4 text-gray-500 hover:text-white">
-          Diseño gráfico
+          Ilustraciones
         </Link>
         <Link href="/modelado3d" className="m-4 text-gray-500 hover:text-white">
           Modelado 3D

@@ -9,11 +9,11 @@ const Creaciones = () => {
           <p className="text-5xl lg:text-7xl text-gray-200/80 font-extrabold text-center antialiased md:subpixel-antialiased">
             Realizado
           </p>
-          <p className="text-5xl lg:text-4xl text-slate-600/70 font-extrabold text-center antialiased md:subpixel-antialiased py-4 ">
+          <p className="text-5xl lg:text-4xl text-slate-600/70 font-extrabold text-center antialiased md:subpixel-antialiased mt-5 ">
             Web
           </p>
-          <p className="text-balance text-gray-500 w-auto lg:w-[300px] pt-5 lg:m-auto">
-            Un recorrido mientras descubrimos los detalles del{" "}
+          <p className="text-balance text-gray-500 w-auto lg:w-[300px] lg:m-auto">
+            Tomar esta ruta para descubrir los detalles del{" "}
             <span className="text-gray-200">Desarrollo Web</span>.
           </p>
         </figure>

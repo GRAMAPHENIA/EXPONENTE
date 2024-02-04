@@ -7,10 +7,10 @@ const CreacionesIlustraciones = () => {
         <p className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased">
           Ilustrado
         </p>
-        <p className="text-2xl lg:text-4xl text-slate-600/70 font-extrabold text-center antialiased md:subpixel-antialiased mt-5 ">
+        {/* <p className="text-2xl lg:text-4xl text-slate-600/70 font-extrabold text-center antialiased md:subpixel-antialiased mt-5 ">
           2D
-        </p>
-        <p className="text-balance font-thin text-gray-500 w-auto lg:w-[300px] lg:m-auto">
+        </p> */}
+        <p className="text-balance font-normal text-gray-500 w-auto lg:w-[300px] lg:m-auto">
           Tomar esta ruta para descubrir los detalles del{" "}
           <span className="text-gray-200 font-light">Diseño Gráfico</span>.
         </p>
@@ -42,7 +42,7 @@ const CreacionesIlustraciones = () => {
           A color
         </p>
       </figure>
-      <button className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto">
+      <button className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100">
         Más Trabajos
       </button>
     </>

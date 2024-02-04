@@ -8,14 +8,14 @@ const Modal = () => {
       <ul className="relative flex flex-col justify-center align-middle ">
         <Link
           href="/desarrolloweb"
-          className="m-4 text-gray-500 hover:text-white"
+          className="m-2 bg-gray-600/15 hover:bg-gray-600/30 rounded-lg px-4 py-2 text-gray-500 hover:text-white"
         >
           Desarrolo web
         </Link>
-        <Link href="/grafico" className="m-4 text-gray-500 hover:text-white">
+        <Link href="/grafico" className="m-2 bg-gray-600/15 hover:bg-gray-600/30 rounded-lg px-4 py-2 text-gray-500 hover:text-white">
           Ilustraciones
         </Link>
-        <Link href="/modelado3d" className="m-4 text-gray-500 hover:text-white">
+        <Link href="/modelado3d" className="m-2 bg-gray-600/15 hover:bg-gray-600/30 rounded-lg px-4 py-2 text-gray-500 hover:text-white">
           Modelado 3D
         </Link>
       </ul>

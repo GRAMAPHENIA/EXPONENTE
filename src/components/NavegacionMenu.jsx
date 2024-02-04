@@ -60,17 +60,19 @@ export default function NavegacionMenu() {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
           onClick={handleModalOpen}
-          className={`hidden lg:block px-4 py-2 rounded-lg cursor-pointer mr-2 ${
+          className={`hidden lg:block px-4 py-2 rounded-lg cursor-pointer  ${
             isModalOpen ? "text-white" : "text-gray-500 hover:text-white"
           }`}
         >
-          <span>Creaciones</span>
+          <span className="hover:bg-gray-600/30 px-4 py-3 rounded-lg cursor-pointer">
+            Creaciones
+          </span>
         </li>
 
-        <li className="hidden lg:block text-gray-500 hover:text-white px-4 py-2 rounded-lg cursor-pointer mr-2">
+        <li className="hidden lg:block text-gray-500 hover:text-white hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-2">
           Código
         </li>
-        <li className="hidden lg:block text-gray-500 hover:text-white px-4 py-2 rounded-lg cursor-pointer mr-2">
+        <li className="hidden lg:block text-gray-500 hover:text-white hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-2">
           Estudio
         </li>
         <li className="cursor-pointer">

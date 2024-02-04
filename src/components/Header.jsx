@@ -11,7 +11,7 @@ const Header = () => {
       <section className="">
         <p className="pt-10 mb-10 text-xl text-center text-balance text-gray-500 antialiased md:subpixel-antialiased w-[300px] lg:w-[1200px]">
           La tecnología redefine cómo vivimos, trabajamos y nos relacionamos,
-          creando un universo donde lo real y lo virtual convergen en{" "}
+          creando un universo donde lo real y lo virtual convergen en {" "}
           <span className="text-gray-200">una sola experiencia</span>.
         </p>
       </section>

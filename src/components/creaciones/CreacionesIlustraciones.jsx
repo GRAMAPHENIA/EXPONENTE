@@ -23,7 +23,7 @@ const CreacionesIlustraciones = () => {
           width={500}
           height={500}
           priority
-          className="border-2 opacity-60 hover:opacity-100 border-dotted border-gray-600 hover:border-gray-400 rounded-lg cursor-pointer"
+          className="border-2 opacity-80 hover:opacity-100 border-dotted border-gray-600 hover:border-gray-400 rounded-lg cursor-pointer"
         />
         <p className="group-hover:text-gray-100 text-blue-200/30 p-1 text-lg font-mono  rounded-md mt-4 bg-gray-600/15">
           Lineales
@@ -36,7 +36,7 @@ const CreacionesIlustraciones = () => {
           width={500}
           height={500}
           priority
-          className="border-2 opacity-60 hover:opacity-100 border-dotted border-gray-600 hover:border-gray-400 rounded-lg cursor-pointer"
+          className="border-2 opacity-80 hover:opacity-100 border-dotted border-gray-600 hover:border-gray-400 rounded-lg cursor-pointer"
         />
         <p className="group-hover:text-gray-100 text-blue-200/30 p-1 text-lg font-mono  rounded-md mt-4 bg-gray-600/15">
           A color

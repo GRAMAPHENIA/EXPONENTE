@@ -5,14 +5,16 @@ const Header = () => {
     <header className="pt-5">
       <figure className="">
         <p className="flex justify-center align-middle text-balance text-5xl w-[300px] lg:text-7xl text-gray-200 font-black text-center lg:text-left mt-24 lg:mt-[18%] lg:w-[1200px] tracking-tight antialiased md:subpixel-antialiased">
-          Tangible y Virtual, Una Visión
+          Desarrollo web, ilustraciones y 3D.
         </p>
       </figure>
       <section className="">
-        <p className="pt-10 mb-10 text-xl text-center text-balance text-gray-500 antialiased md:subpixel-antialiased w-[300px] lg:w-[1200px]">
-          La tecnología redefine cómo vivimos, trabajamos y nos relacionamos,
-          creando un universo donde lo real y lo virtual convergen en {" "}
-          <span className="text-gray-200">una sola experiencia</span>.
+        <p className="pt-10 mb-10 text-xl text-center text-balance text-gray-500 antialiased md:subpixel-antialiased w-[300px] lg:w-[1200px] italic">
+          &quot;La tecnología redefine nuestra realidad, fusionando lo tangible
+          con lo virtual para crear una experiencia unificada que transforma
+          nuestra forma de {" "}
+          <span className="text-gray-200">vivir, trabajar y relacionarnos</span>
+          &quot;
         </p>
       </section>
       <section className="flex space-x-10 lg:space-x-40 justify-center align-middle ">

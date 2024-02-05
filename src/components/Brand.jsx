@@ -13,9 +13,8 @@ const Brand = () => {
         >
           By{" "}
           <Image
-            src="/svgs/fango.svg"
+            src="/svgs/juno-fang.svg"
             alt="gramaphenia Logo"
-            // className="dark:invert"
             width={150}
             height={150}
             priority

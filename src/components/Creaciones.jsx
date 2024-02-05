@@ -8,7 +8,7 @@ import CreacionesTresD from "@/components/creaciones/CreacionesTresD";
 const Creaciones = () => {
   return (
     <>
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-20 mb-56 text-center">
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-20 mb-32 text-center">
         <CreacionesWeb />
         <CreacionesIlustraciones />
         <CreacionesTresD />

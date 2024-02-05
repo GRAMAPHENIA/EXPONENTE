@@ -32,7 +32,7 @@ const Header = () => {
       <Image
         className="m-auto mt-28"
         src="/svgs/decoradores/seccion-creaciones.svg"
-        alt="gramaphenia Logo"
+        alt="Imagen en svg de un diseño de geometrias sencillas con circulos y cuadrados para separar seccion"
         width={200}
         height={200}
         priority

@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Gramaphenia",
+  title: "Fang{o}",
   description: "Creaciones gramaphenicas",
 };
 

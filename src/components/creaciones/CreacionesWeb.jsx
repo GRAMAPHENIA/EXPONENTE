@@ -4,12 +4,12 @@ const CreacionesWeb = () => {
   return (
     <>
       <figure className="col-span-1 lg:col-span-2 text-center">
-        <p className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased ">
+        <p
+          className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased pt-20"
+          id="desarrolloweb"
+        >
           Desarrollado
         </p>
-        {/* <p className="text-2xl lg:text-4xl text-slate-600/70 font-extrabold text-center antialiased md:subpixel-antialiased mt-5 ">
-          Web
-        </p> */}
         <p className="text-balance font-normal text-gray-500 w-auto lg:w-[300px] lg:m-auto">
           Tomar esta ruta para descubrir los detalles del{" "}
           <span className="text-amber-100 font-light">Desarrollo Web</span>.

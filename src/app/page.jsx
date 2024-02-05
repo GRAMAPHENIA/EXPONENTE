@@ -14,7 +14,7 @@ const Home = () => {
         <NavegacionMenu />
         <Brand />
       </div>
-      <div className="mb-28 lg:mb-20">
+      <div className="mb-28 lg:mb-5">
         <Header />
       </div>
       <section className="flex justify-center items-center">

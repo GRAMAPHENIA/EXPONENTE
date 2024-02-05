@@ -50,6 +50,7 @@ body {
   max-width: calc(100% - 2rem);
   line-height: 1.6;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 @layer utilities {

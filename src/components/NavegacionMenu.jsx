@@ -44,7 +44,7 @@ export default function NavegacionMenu() {
 
   return (
     <nav className="z-10 max-w-5xl w-full items-center justify-between font-mono text-md lg:flex">
-      <ul className="fixed antialiased md:subpixel-antialiased left-0 top-0 flex w-full justify-between border-b border-gray-300 bg-gradient-to-b from-zinc-200 py-4 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border-2 lg:border-dotted lg:bg-gray-200 lg:p-2 lg:dark:bg-zinc-800/30">
+      <ul className="fixed antialiased md:subpixel-antialiased left-0 top-0 flex w-full justify-between border-b border-gray-300 bg-gradient-to-b from-zinc-200 py-4 backdrop-blur-2xl dark:border-neutral-800  dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border  lg:p-2 ">
         <li className="cursor-pointer">
           <div className="image-container ml-10 block lg:hidden">
             <Image
@@ -72,7 +72,7 @@ export default function NavegacionMenu() {
         <li className="hidden lg:block text-gray-500 hover:text-white hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-2">
           Código
         </li>
-        <li className="hidden lg:block text-gray-500 hover:text-white hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-2">
+        <li className="hidden lg:block text-gray-500 hover:text-white hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-10">
           Estudio
         </li>
         <li className="cursor-pointer">

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="pt-5">
       <figure className="">
-        <p className="flex justify-center align-middle text-balance text-5xl w-[300px] lg:text-7xl text-gray-200 font-black text-center lg:text-left mt-24 lg:mt-[16%] lg:w-[1200px] tracking-tight antialiased md:subpixel-antialiased">
+        <p className="flex justify-center align-middle text-balance text-5xl w-[300px] lg:text-7xl text-gray-200 font-black text-center lg:text-left mt-6 lg:mt-[16%] lg:w-[1200px] tracking-tight antialiased md:subpixel-antialiased">
           Desarrollo Web, Ilustraciones y 3D.
         </p>
       </figure>

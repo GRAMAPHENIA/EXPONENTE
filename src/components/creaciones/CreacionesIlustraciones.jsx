@@ -10,9 +10,6 @@ const CreacionesIlustraciones = () => {
         >
           Ilustrado
         </p>
-        {/* <p className="text-2xl lg:text-4xl text-slate-600/70 font-extrabold text-center antialiased md:subpixel-antialiased mt-5 ">
-          2D
-        </p> */}
         <p className="text-balance font-normal text-gray-500 w-auto lg:w-[300px] lg:m-auto">
           Tomar esta ruta para descubrir los detalles de las{" "}
           <span className="text-amber-100 font-light">Ilustraciones</span>.

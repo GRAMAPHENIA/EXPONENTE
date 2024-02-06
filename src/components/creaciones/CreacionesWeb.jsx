@@ -1,11 +1,21 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import Image from "next/image";
 
 const CreacionesWeb = () => {
   const [modalOpen, setModalOpen] = useState(false);
+
+  useEffect(() => {
+    if (modalOpen) {
+      // Al abrir el modal, añade la clase al body para desactivar el scroll
+      document.body.classList.add("modal-open");
+    } else {
+      // Al cerrar el modal, remueve la clase del body para activar el scroll
+      document.body.classList.remove("modal-open");
+    }
+  }, [modalOpen]);
 
   const openModal = () => {
     setModalOpen(true);
@@ -63,9 +73,9 @@ const CreacionesWeb = () => {
         Más Trabajos
       </button>
       {modalOpen && (
-        <div className="modal m-auto col-span-2">
+        <div className="modal m-auto col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-50 backdrop-blur-lg">
           <div className="modal-content">
-            <span className="close" onClick={closeModal}>
+            <span className="text-4xl" onClick={closeModal}>
               &times;
             </span>
             <p>Contenido del modal...</p>

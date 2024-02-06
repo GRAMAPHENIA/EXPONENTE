@@ -72,19 +72,17 @@ body {
 
 /*:::MODAL:::*/
 
-.modal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* position: fixed; */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .modal-content {
   color: white;
-  width: full;
+  padding: 1rem;
+  width: 90%;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid #1e2021;
+  border-radius: 6px;
+}
+
+.modal-open {
+  overflow: hidden;
 }

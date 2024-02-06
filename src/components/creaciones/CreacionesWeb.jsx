@@ -1,6 +1,20 @@
+"use client";
+
+import React, { useState } from "react";
+
 import Image from "next/image";
 
 const CreacionesWeb = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
   return (
     <>
       <figure className="col-span-1 lg:col-span-2 text-center">
@@ -42,9 +56,22 @@ const CreacionesWeb = () => {
           Di corato Luthier
         </p>
       </figure>
-      <button className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100">
+      <button
+        onClick={openModal}
+        className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100"
+      >
         Más Trabajos
       </button>
+      {modalOpen && (
+        <div className="modal m-auto col-span-2">
+          <div className="modal-content">
+            <span className="close" onClick={closeModal}>
+              &times;
+            </span>
+            <p>Contenido del modal...</p>
+          </div>
+        </div>
+      )}
     </>
   );
 };

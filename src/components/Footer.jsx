@@ -41,7 +41,7 @@ const Footer = () => {
               {section.items.map((item, itemIndex) => (
                 <li
                   key={itemIndex}
-                  className="text-gray-500 text-sm font-normal hover:text-gray-50 cursor-pointer"
+                  className="text-gray-500 text-sm font-normal hover:text-gray-300 cursor-pointer underline underline-offset-1 decoration-wavy decoration-gray-500 hover:decoration-amber-100 "
                 >
                   {item}
                 </li>

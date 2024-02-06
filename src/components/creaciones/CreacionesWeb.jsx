@@ -9,10 +9,10 @@ const CreacionesWeb = () => {
 
   useEffect(() => {
     if (modalOpen) {
-      // Al abrir el modal, añade la clase al body para desactivar el scroll
+      // Al abrir el modal, añade la clase al body
       document.body.classList.add("modal-open");
     } else {
-      // Al cerrar el modal, remueve la clase del body para activar el scroll
+      // Al cerrar el modal, remueve la clase del body
       document.body.classList.remove("modal-open");
     }
   }, [modalOpen]);
@@ -74,11 +74,34 @@ const CreacionesWeb = () => {
       </button>
       {modalOpen && (
         <div className="modal m-auto col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-50 backdrop-blur-lg">
-          <div className="modal-content">
-            <span className="text-4xl" onClick={closeModal}>
+          <div className="modal-content grid grid-cols-4 grid-rows-4">
+            <span
+              className="text-xl text-gray-300/50 fixed top-0 right-0 mt-4 mr-4 py-[2px] px-[10px] border-2 border-gray-300/20 hover:bg-slate-500/20 rounded-full cursor-pointer"
+              onClick={closeModal}
+            >
               &times;
             </span>
-            <p>Contenido del modal...</p>
+            <div className="col-span-1 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2">
+              
+            </div>
+            <div className="col-span-3 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2">
+              
+            </div>
+            <div className="col-span-3 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2">
+              
+            </div>
+            <div className="col-span-1 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2">
+              
+            </div>
+            <div className="col-span-4 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2">
+              
+            </div>
+            <div className="col-span-2 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2">
+              
+            </div>
+            <div className="col-span-2 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2">
+              
+            </div>
           </div>
         </div>
       )}

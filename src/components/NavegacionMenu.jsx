@@ -3,6 +3,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import NavegacionMobile from "@/components/NavegacionMobile";
+
 import React, { useState, useRef, useEffect } from "react";
 import Modal from "@/components/Modal";
 
@@ -10,6 +12,7 @@ export default function NavegacionMenu() {
   const [openModal, setOpenModal] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+
   const modalRef = useRef(null);
 
   const modalOpen = () => {
@@ -106,7 +109,8 @@ export default function NavegacionMenu() {
       </ul>
       {openModal && (
         <div className="modal m-auto col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-50 backdrop-blur-lg">
-          <div className="modal-content grid grid-cols-4 grid-rows-4">
+          <div className="modal-content flex items-center">
+            <NavegacionMobile />
             <span
               className="text-xl text-gray-300/50 fixed top-0 right-0 mt-4 mr-4 py-[2px] px-[10px] border-2 border-gray-300/20 hover:bg-slate-500/20 rounded-full cursor-pointer"
               onClick={modalClose}

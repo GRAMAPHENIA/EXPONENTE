@@ -34,7 +34,7 @@ export default function NavegacionMenu() {
   };
   const handleModalClose = () => {
     setIsModalOpen(false);
-    setIsHovered(false); //Restablecer isHovered cuando la modal está cerrada
+    setIsHovered(false);
   };
 
   const handleClickOutsideModal = (event) => {

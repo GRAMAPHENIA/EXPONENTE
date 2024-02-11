@@ -81,13 +81,6 @@ const CreacionesTresD = () => {
             >
               &times;
             </span>
-            <div className="col-span-1 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2"></div>
-            <div className="col-span-3 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2"></div>
-            <div className="col-span-3 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2"></div>
-            <div className="col-span-1 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2"></div>
-            <div className="col-span-4 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2"></div>
-            <div className="col-span-2 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2"></div>
-            <div className="col-span-2 border border-gray-500/20 m-1 rounded-md bg-gray-600/20 p-2"></div>
           </div>
         </div>
       )}

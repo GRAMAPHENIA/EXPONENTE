@@ -80,6 +80,7 @@ const CreacionesWeb = () => {
             >
               &times;
             </span>
+            <h1>Creaciones Web</h1>
           </div>
         </div>
       )}

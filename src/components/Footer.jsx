@@ -9,7 +9,7 @@ const Footer = () => {
     },
     {
       title: "Información",
-      items: ["Mapa de sitio", "Código", "Estudios"],
+      items: ["Estudios", "Código","Mapa de sitio"],
     },
     {
       title: "Sociales",

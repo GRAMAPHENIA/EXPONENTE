@@ -5,6 +5,8 @@ import NavegacionMenu from "@/components/NavegacionMenu";
 import Brand from "@/components/Brand";
 import Header from "@/components/Header";
 import Creaciones from "@/components/Creaciones";
+import DecoradorAcercaDe from "@/components/decoradores/DecoradorAcercaDe";
+import DecoradorEstudios from "@/components/decoradores/DecoradorEstudios";
 import Footer from "@/components/Footer";
 
 const Home = () => {
@@ -17,9 +19,17 @@ const Home = () => {
       <div className="mb-28 lg:mb-5">
         <Header />
       </div>
+
       <section className="flex justify-center items-center">
         <Creaciones />
       </section>
+      <section className="mt-20 mb-40">
+        <DecoradorAcercaDe />
+      </section>
+      <section className="mt-20 mb-40">
+        <DecoradorEstudios />
+      </section>
+
       <Footer />
     </main>
   );

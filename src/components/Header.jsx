@@ -33,9 +33,6 @@ const Header = () => {
       </header>
 
       <figure className="grid grid-cols-3 align-middle justify-center mt-32 lg:my-20 ">
-        {/* <h2 className="col-span-1 my-auto text-xl lg:text-6xl text-gray-300 font-black text-right antialiased md:subpixel-antialiased">
-          Obras
-        </h2> */}
         <Image
           className="col-span-3 m-auto"
           src="/svgs/decoradores/seccion-creaciones.svg"
@@ -44,9 +41,6 @@ const Header = () => {
           height={100}
           priority
         />
-        {/* <h2 className="col-span-1 my-auto text-xl lg:text-6xl text-gray-300 font-black text-left antialiased md:subpixel-antialiased">
-          Creadas
-        </h2> */}
       </figure>
     </>
   );

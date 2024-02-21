@@ -69,7 +69,7 @@ export default function NavegacionMenu() {
           >
             <Image
               src="/svgs/menu.svg"
-              alt="gramaphenia Logo"
+              alt="Imagen svg del menu"
               width={40}
               height={40}
               priority

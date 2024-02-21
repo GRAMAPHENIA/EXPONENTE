@@ -11,7 +11,7 @@ const NavegacionMobile = () => {
           <Image
             className="mb-2"
             src="/svgs/juno-fang.svg"
-            alt="imagen del logo de la empresa"
+            alt="imagen del logo de firma juno fang"
             width="200"
             height="200"
             priority={true}

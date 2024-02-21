@@ -5,7 +5,7 @@ import NavegacionMenu from "@/components/NavegacionMenu";
 import Brand from "@/components/Brand";
 import Header from "@/components/Header";
 import Creaciones from "@/components/Creaciones";
-import DecoradorAcercaDe from "@/components/decoradores/DecoradorAcercaDe";
+import DecoradorAcercaDe from "@/components/decoradores/DecoradorPerfil";
 import DecoradorEstudios from "@/components/decoradores/DecoradorEstudios";
 import Footer from "@/components/Footer";
 

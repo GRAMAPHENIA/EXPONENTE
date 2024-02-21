@@ -19,7 +19,6 @@ const Home = () => {
       <div className="mb-28 lg:mb-5">
         <Header />
       </div>
-
       <section className="flex justify-center items-center">
         <Creaciones />
       </section>

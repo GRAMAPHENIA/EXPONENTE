@@ -32,21 +32,21 @@ const Header = () => {
         </section>
       </header>
 
-      <figure className="grid grid-cols-3 align-middle justify-center my-20">
-        <h2 className="col-span-1 my-auto text-4xl lg:text-6xl text-gray-300 font-black text-right antialiased md:subpixel-antialiased">
+      <figure className="grid grid-cols-3 align-middle justify-center mt-32 lg:my-20 ">
+        {/* <h2 className="col-span-1 my-auto text-xl lg:text-6xl text-gray-300 font-black text-right antialiased md:subpixel-antialiased">
           Obras
-        </h2>
+        </h2> */}
         <Image
-          className="col-span-1 m-auto"
+          className="col-span-3 m-auto"
           src="/svgs/decoradores/seccion-creaciones.svg"
           alt="Imagen en svg de un diseño de geometrias sencillas con circulos y cuadrados para separar seccion"
           width={100}
           height={100}
           priority
         />
-        <h2 className="col-span-1 my-auto text-4xl lg:text-6xl text-gray-300 font-black text-left antialiased md:subpixel-antialiased">
+        {/* <h2 className="col-span-1 my-auto text-xl lg:text-6xl text-gray-300 font-black text-left antialiased md:subpixel-antialiased">
           Creadas
-        </h2>
+        </h2> */}
       </figure>
     </>
   );

@@ -28,7 +28,7 @@ const CreacionesWeb = () => {
     <>
       <figure className="col-span-1 lg:col-span-2 text-center">
         <p
-          className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased pt-20"
+          className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased lg:pt-20"
           id="desarrolloweb"
         >
           Desarrollado

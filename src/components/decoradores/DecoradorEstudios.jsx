@@ -12,7 +12,7 @@ const DecoradorEstudios = () => {
             Estudios
           </p>
           <p className="text-balance text-center lg:text-right font-normal text-gray-500 w-auto ">
-            Tomar esta ruta para descubrir los detalles del{" "}
+            Tomar esta ruta para descubrir los detalles de los{" "}
             <span className="text-amber-100 font-light">Estudios</span>.
           </p>
         </figure>

@@ -14,7 +14,7 @@ const Home = () => {
     <main className="flex flex-col items-center justify-center lg:justify-start pt-10 px-2 lg:px-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-md lg:flex">
         <NavegacionMenu /> 
-        <Brand />
+        {/* <Brand /> */}
       </div>
       <div className="mb-28 lg:mb-5">
         <Header />

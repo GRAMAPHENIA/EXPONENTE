@@ -13,7 +13,7 @@ const Header = () => {
         <section className="">
           <p className="pt-10 mb-10 lg:mb-28 text-xl text-center text-balance text-gray-500 antialiased md:subpixel-antialiased w-[300px] lg:w-[1200px] italic">
             &quot;La tecnología redefine nuestra realidad, fusionando lo
-            tangible con lo virtual para crear una experiencia unificada que
+            tangible con lo imaginario, para crear una experiencia unificada que
             transforma nuestra forma de{" "}
             <span className="text-gray-200">
               vivir, trabajar y relacionarnos

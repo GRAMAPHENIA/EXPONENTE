@@ -65,7 +65,7 @@ export default function NavegacionMenu() {
 
   return (
     <nav className="z-10 max-w-5xl w-full items-center justify-between font-mono text-md lg:flex">
-      <ul className="fixed antialiased md:subpixel-antialiased left-0 top-0 flex w-full justify-between border-b lg:border-b-0 border-gray-300 bg-gradient-to-b from-zinc-200 py-4 backdrop-blur-2xl dark:border-neutral-800  dark:from-inherit lg:static lg:w-auto lg:rounded-xl   lg:p-2 ">
+      <ul className="fixed antialiased md:subpixel-antialiased left-0 top-0 flex w-full justify-between border-b lg:border-b-0 border-gray-300 bg-gradient-to-b from-zinc-200 py-4 backdrop-blur-2xl dark:border-neutral-800  dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:p-2 ">
         <li className="cursor-pointer">
           <button
             onClick={modalOpen}
@@ -84,12 +84,12 @@ export default function NavegacionMenu() {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
           onClick={handleModalOpen}
-          className={`hidden lg:block px-4 py-2 rounded-lg cursor-pointer  ${
-            isModalOpen ? "text-white" : "text-gray-500 hover:text-white"
+          className={`hidden lg:block px-3 py-2 rounded-lg cursor-pointer  ${
+            isModalOpen ? "text-amber-100" : "text-gray-500 p-4 hover:text-gray-200"
           }`}
         >
-          <span className="hover:bg-gray-600/30 px-4 py-3 rounded-lg cursor-pointer">
-            Creaciones ↓
+          <span className="relative hover:bg-gray-600/30 px-4 py-3 rounded-lg cursor-pointer">
+             Creaciones <span className="text-slate-300/90 text-base">⇲</span>
           </span>
         </li>
 
@@ -99,7 +99,7 @@ export default function NavegacionMenu() {
         <li className="hidden lg:block text-gray-500 hover:text-white hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-10">
           Estudio
         </li>
-        <li className="cursor-pointer">
+        {/* <li className="cursor-pointer">
           <div className="image-container mr-10 lg:mr-0 animate-pulse ">
             <Image
               src="/contact.svg"
@@ -109,7 +109,7 @@ export default function NavegacionMenu() {
               priority
             />
           </div>
-        </li>
+        </li> */}
       </ul>
       {openModal && (
         <div className="modal m-auto col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-50 backdrop-blur-lg">
@@ -126,7 +126,7 @@ export default function NavegacionMenu() {
         </div>
       )}
       {isModalOpen && (
-        <div className="absolute p-4 mt-20" ref={modalRef}>
+        <div className="absolute p-4 mt-14 " ref={modalRef}>
           <Modal onClose={handleModalClose} />
         </div>
       )}

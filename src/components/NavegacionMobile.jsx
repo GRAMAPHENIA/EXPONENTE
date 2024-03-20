@@ -11,14 +11,14 @@ const NavegacionMobile = ({ onCloseModal }) => {
     <>
       <section className="w-full flex justify-center text-center">
         <nav>
-          <Image
+          {/* <Image
             className="mb-2"
             src="/svgs/juno-fang.svg"
             alt="imagen del logo de firma juno fang"
             width="200"
             height="200"
             priority={true}
-          />
+          /> */}
           <span className="text-white">. Menů .</span>
           <ul className="mt-10 space-y-10">
             <li>

@@ -3,7 +3,10 @@ import React from "react";
 import NavLink from "@/components/NavLink";
 import Image from "next/image";
 
-const NavegacionMobile = () => {
+const NavegacionMobile = ({ onCloseModal }) => {
+  const handleClick = () => {
+    onCloseModal(); // Llama a la función para cerrar el modal
+  };
   return (
     <>
       <section className="w-full flex justify-center text-center">
@@ -23,6 +26,7 @@ const NavegacionMobile = () => {
                 activeClasses="m-2 bg-gray-600/15 hover:bg-gray-600/30 rounded-lg px-4 py-2 text-gray-500 text-slate-500"
                 text="inicio"
                 href="/"
+                onClick={handleClick}
               />
             </li>
             <li>
@@ -30,6 +34,7 @@ const NavegacionMobile = () => {
                 activeClasses="m-2 bg-gray-600/15 hover:bg-gray-600/30 rounded-lg px-4 py-2 text-gray-500 hover:text-white"
                 text="Desarrollo Web"
                 href="#desarrolloweb"
+                onClick={handleClick}
               />
             </li>
             <li>
@@ -37,6 +42,7 @@ const NavegacionMobile = () => {
                 activeClasses="m-2 bg-gray-600/15 hover:bg-gray-600/30 rounded-lg px-4 py-2 text-gray-500 hover:text-white"
                 text="Ilustraciones"
                 href="#grafico"
+                onClick={handleClick}
               />
             </li>
             <li>
@@ -44,6 +50,7 @@ const NavegacionMobile = () => {
                 activeClasses="m-2 bg-gray-600/15 hover:bg-gray-600/30 rounded-lg px-4 py-2 text-gray-500 hover:text-white"
                 text="Modelado 3D"
                 href="#modelado3d"
+                onClick={handleClick}
               />
             </li>
             <li>
@@ -51,6 +58,7 @@ const NavegacionMobile = () => {
                 activeClasses="m-2 bg-gray-600/15 hover:bg-gray-600/30 rounded-lg px-4 py-2 text-gray-500 hover:text-white"
                 text="Codigo"
                 href="#codigo"
+                onClick={handleClick}
               />
             </li>
             <li>
@@ -58,6 +66,7 @@ const NavegacionMobile = () => {
                 activeClasses="m-2 bg-gray-600/15 hover:bg-gray-600/30 rounded-lg px-4 py-2 text-gray-500 hover:text-white"
                 text="Estudio"
                 href="#estudio"
+                onClick={handleClick}
               />
             </li>
           </ul>

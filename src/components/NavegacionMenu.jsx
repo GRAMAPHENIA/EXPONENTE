@@ -15,6 +15,10 @@ export default function NavegacionMenu() {
 
   const modalRef = useRef(null);
 
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   const modalOpen = () => {
     setOpenModal(true);
   };
@@ -61,7 +65,7 @@ export default function NavegacionMenu() {
 
   return (
     <nav className="z-10 max-w-5xl w-full items-center justify-between font-mono text-md lg:flex">
-      <ul className="fixed antialiased md:subpixel-antialiased left-0 top-0 flex w-full justify-between border-b border-gray-300 bg-gradient-to-b from-zinc-200 py-4 backdrop-blur-2xl dark:border-neutral-800  dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border  lg:p-2 ">
+      <ul className="fixed antialiased md:subpixel-antialiased left-0 top-0 flex w-full justify-between border-b lg:border-b-0 border-gray-300 bg-gradient-to-b from-zinc-200 py-4 backdrop-blur-2xl dark:border-neutral-800  dark:from-inherit lg:static lg:w-auto lg:rounded-xl   lg:p-2 ">
         <li className="cursor-pointer">
           <button
             onClick={modalOpen}
@@ -85,7 +89,7 @@ export default function NavegacionMenu() {
           }`}
         >
           <span className="hover:bg-gray-600/30 px-4 py-3 rounded-lg cursor-pointer">
-            Creaciones
+            Creaciones ↓
           </span>
         </li>
 
@@ -110,7 +114,8 @@ export default function NavegacionMenu() {
       {openModal && (
         <div className="modal m-auto col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-50 backdrop-blur-lg">
           <div className="modal-content flex items-center">
-            <NavegacionMobile />
+            <NavegacionMobile onCloseModal={closeModal} />{" "}
+            {/* Cambiar onCloseModal */}
             <span
               className="text-xl text-gray-300/50 fixed top-0 right-0 mt-4 mr-4 py-[2px] px-[10px] border-2 border-gray-300/20 hover:bg-slate-500/20 rounded-full cursor-pointer"
               onClick={modalClose}

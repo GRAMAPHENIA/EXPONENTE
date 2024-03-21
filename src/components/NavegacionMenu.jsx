@@ -65,7 +65,7 @@ export default function NavegacionMenu() {
 
   return (
     <nav className="z-10 max-w-5xl w-full items-center justify-between font-mono text-md lg:flex">
-      <ul className="fixed antialiased md:subpixel-antialiased left-0 top-0 flex w-full justify-between border-b lg:border-b-0 border-gray-300 bg-gradient-to-b from-zinc-200 py-4 backdrop-blur-2xl dark:border-neutral-800  dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:p-2 ">
+      <ul className="fixed antialiased md:subpixel-antialiased left-0 top-0 flex w-full justify-between border-b lg:border-b-0 border-gray-300 py-4  dark:border-neutral-800  dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:p-2 ">
         <li className="cursor-pointer">
           <button
             onClick={modalOpen}
@@ -85,7 +85,7 @@ export default function NavegacionMenu() {
           onMouseLeave={handleMouseLeave}
           onClick={handleModalOpen}
           className={`hidden lg:block px-3 py-2 rounded-lg cursor-pointer  ${
-            isModalOpen ? "text-amber-100" : "text-gray-500 p-4 hover:text-gray-200"
+            isModalOpen ? "text-amber-100 " : "text-gray-500 p-4 hover:text-gray-200 hover:backdrop-blur-sm"
           }`}
         >
           <span className="relative hover:bg-gray-600/30 px-4 py-3 rounded-lg cursor-pointer">
@@ -93,10 +93,10 @@ export default function NavegacionMenu() {
           </span>
         </li>
 
-        <li className="hidden lg:block text-gray-500 hover:text-white hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-2">
+        <li className="hidden lg:block text-gray-500 hover:text-white backdrop-blur-sm hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-2">
           Código
         </li>
-        <li className="hidden lg:block text-gray-500 hover:text-white hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-10">
+        <li className="hidden lg:block text-gray-500 hover:text-white backdrop-blur-sm hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-10">
           Estudio
         </li>
         {/* <li className="cursor-pointer">

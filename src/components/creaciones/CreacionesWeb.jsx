@@ -48,7 +48,7 @@ const CreacionesWeb = () => {
           priority
           className="border-2 border-dotted  opacity-80 hover:opacity-100 border-gray-600 hover:border-gray-400 rounded-md cursor-pointer"
         />
-        <p className="group-hover:text-gray-100 text-blue-200/30 p-1 text-lg font-mono  rounded-md mt-4 bg-gray-600/15">
+        <p className="group-hover:text-gray-100 text-blue-200/30 p-1 text-lg font-mono rounded-md mt-4 bg-gray-600/15">
           Concepto Hexágono
         </p>
       </figure>
@@ -67,7 +67,7 @@ const CreacionesWeb = () => {
       </figure>
       <button
         onClick={openModal}
-        className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100"
+        className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 backdrop-blur-sm px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100"
       >
         Más Trabajos
       </button>

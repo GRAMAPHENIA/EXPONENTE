@@ -23,7 +23,7 @@ const Header = () => {
         </section>
 
         <section className="flex space-x-10 lg:space-x-40 justify-center align-middle ">
-          <button className="text-amber-100 bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2 rounded-xl border border-gray-800 w-32 lg:w-auto">
+          <button className="text-amber-100 bg-zinc-800/30 hover:bg-zinc-800/50 backdrop-blur-sm px-4 py-2 rounded-xl border border-gray-800 w-32 lg:w-auto">
             Saber más
           </button>
           <button className="bg-zinc-300 hover:bg-white px-4 py-2 rounded-xl border border-gray-800 text-zinc-800 hover:text-black">

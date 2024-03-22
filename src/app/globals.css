@@ -83,8 +83,8 @@ body {
 .modal-content {
   color: white;
   padding: 3.5rem;
-  width: 90%;
-  height: 90%;
+  width: 1250px;
+  height: 700px;
   background-color: #0000001a;
   backdrop-filter: blur(20px);
   border: 1px solid #1e2021;

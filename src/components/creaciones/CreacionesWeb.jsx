@@ -78,8 +78,8 @@ const CreacionesWeb = () => {
         Trabajos Realizados
       </button>
       {modalOpen && (
-        <div className="modal m-auto col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-50 backdrop-blur-lg">
-          <div className="modal-content">
+        <div className="modal col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-50 backdrop-blur-lg p-32">
+         
             <span
               className="text-xl text-gray-300/50 fixed top-0 right-0 mt-4 mr-4 py-[2px] px-[10px] border-2 border-gray-300/20 hover:bg-slate-500/20 rounded-full cursor-pointer"
               onClick={closeModal}
@@ -87,7 +87,7 @@ const CreacionesWeb = () => {
               &times;
             </span>
             <ModalCreacionesWeb />
-          </div>
+          
         </div>
       )}
     </>

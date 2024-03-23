@@ -54,11 +54,9 @@ body {
 
   background-image: url("../../fondos/fondo-general.svg");
   /* margin: 0; */
-    padding: 0;
-    background-repeat: repeat; /* Para evitar la repetición de la imagen */
-    background-position: center; /* Para centrar la imagen */
- 
-  
+  padding: 0;
+  background-repeat: repeat; /* Para evitar la repetición de la imagen */
+  background-position: center; /* Para centrar la imagen */
 }
 
 @layer utilities {
@@ -81,16 +79,13 @@ body {
 /*:::MODAL:::*/
 
 .modal-content {
-  color: white;
-  padding: 3.5rem;
-  width: 1250px;
-  height: 700px;
-  background-color: #0000001a;
-  backdrop-filter: blur(20px);
-  border: 1px solid #1e2021;
-  border-radius: 6px;
+  margin-bottom: 2rem;
 }
 
 .modal-open {
   overflow: hidden;
+}
+
+.fondo {
+  background-image: url("../../fondos/fondo-general.svg");
 }

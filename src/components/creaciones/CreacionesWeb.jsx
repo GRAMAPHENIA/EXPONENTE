@@ -30,7 +30,7 @@ const CreacionesWeb = () => {
     <>
       <figure className="col-span-1 lg:col-span-2 text-center">
         <p
-          className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased lg:pt-20"
+          className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased lg:pt-2"
           id="desarrolloweb"
         >
           Desarrollado
@@ -41,36 +41,17 @@ const CreacionesWeb = () => {
         </p>
       </figure>
 
-      {/*TASK: Colocar svg de Desarrollo Web */}
-
-      <div className="text-gray-600">svg desarrollo web proximamente...</div>
-
-      {/* <figure className="group text-center">
+      <figure className="flex col-span-1 lg:col-span-2 m-auto">
         <Image
-          src="/experiencia/uno.png"
-          alt="gramaphenia Logo"
-          width={500}
-          height={500}
+          className="col-span-1 lg:col-span-2 m-auto"
+          src="/teclado.svg"
+          alt="Imagen en svg de un diseño de geometrias sencillas. En este caso un teclado un, raton inalambrico y un par de manos sobre el primero."
+          width={1200}
+          height={1200}
           priority
-          className="border-2 border-gray-600 hover:border-amber-100 rounded-lg cursor-pointer transition-all"
         />
-        <p className="group-hover:text-gray-100 text-blue-200/30 p-1 text-lg font-mono rounded-lg mt-4 bg-gray-600/15 backdrop-blur-sm transition-all">
-          Concepto Hexágono
-        </p>
       </figure>
-      <figure className="group text-center">
-        <Image
-          src="/experiencia/dos.png"
-          alt="gramaphenia Logo"
-          width={500}
-          height={500}
-          priority
-          className="border-2 border-gray-600 hover:border-amber-100 rounded-lg cursor-pointer transition-all"
-        />
-        <p className="group-hover:text-gray-100 text-blue-200/30 p-1 text-lg font-mono  rounded-md mt-4 bg-gray-600/15 backdrop-blur-sm transition-all">
-          Di corato Luthier
-        </p>
-      </figure> */}
+
       <button
         onClick={openModal}
         className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 backdrop-blur-sm px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100"
@@ -78,16 +59,15 @@ const CreacionesWeb = () => {
         Trabajos Realizados
       </button>
       {modalOpen && (
-        <div className="modal col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-50 backdrop-blur-lg p-32">
-         
-            <span
-              className="text-xl text-gray-300/50 fixed top-0 right-0 mt-4 mr-4 py-[2px] px-[10px] border-2 border-gray-300/20 hover:bg-slate-500/20 rounded-full cursor-pointer"
-              onClick={closeModal}
-            >
-              &times;
-            </span>
-            <ModalCreacionesWeb />
-          
+        <div className="fondo col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-80 backdrop-blur-xl p-10 lg:p-16">
+          <span
+            className="text-xl text-red-500/50 hover:text-red-500 fixed top-0 right-0 mt-16 mr-16 py-[2px] px-[10px] border-2 border-red-500/50 hover:border-red-500 hover:bg-slate-500/20 rounded-full cursor-pointer"
+            onClick={closeModal}
+          >
+            &times;
+          </span>
+
+          <ModalCreacionesWeb />
         </div>
       )}
     </>

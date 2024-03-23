@@ -32,7 +32,7 @@ const Header = () => {
         </section>
       </header>
 
-      <figure className="grid grid-cols-3 align-middle justify-center mt-32 lg:my-20 ">
+      <figure className="grid grid-cols-3 align-middle justify-center  ">
         <Image
           className="col-span-3 m-auto"
           src="/svgs/decoradores/seccion-creaciones.svg"

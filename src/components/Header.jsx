@@ -37,8 +37,8 @@ const Header = () => {
           className="col-span-3 m-auto"
           src="/svgs/decoradores/seccion-creaciones.svg"
           alt="Imagen en svg de un diseño de geometrias sencillas con circulos y cuadrados para separar seccion"
-          width={100}
-          height={100}
+          width={50}
+          height={50}
           priority
         />
       </figure>

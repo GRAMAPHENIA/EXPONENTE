@@ -32,7 +32,7 @@ const Header = () => {
         </section>
       </header>
 
-      <figure className="grid grid-cols-3 align-middle justify-center  ">
+      
         <Image
           className="col-span-3 m-auto"
           src="/svgs/decoradores/seccion-creaciones.svg"
@@ -41,7 +41,6 @@ const Header = () => {
           height={50}
           priority
         />
-      </figure>
     </>
   );
 };

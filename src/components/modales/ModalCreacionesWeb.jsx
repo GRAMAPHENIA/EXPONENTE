@@ -31,7 +31,7 @@ const ModalCreacionesWeb = () => {
 
   return (
     <>
-      <section className="flex flex-col lg:grid lg:grid-cols-4  h-full w-auto">
+      <section className="flex flex-col lg:grid lg:grid-cols-4 h-full w-auto">
         <h2 className="col-span-4 text-amber-100 text-4xl lg:text-9xl font-black">
           Portfolio
         </h2>

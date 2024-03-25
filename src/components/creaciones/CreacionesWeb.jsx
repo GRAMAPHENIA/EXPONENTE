@@ -29,9 +29,18 @@ const CreacionesWeb = () => {
   return (
     <>
       <figure className="col-span-1 lg:col-span-2 text-center">
-        <p
-          className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased lg:pt-2"
+        <Image
           id="desarrolloweb"
+          className="col-span-3 m-auto pt-6"
+          src="/svgs/decoradores/seccion-creaciones.svg"
+          alt="Imagen en svg de un diseño de geometrias sencillas con circulos y cuadrados para separar seccion"
+          width={50}
+          height={50}
+          priority
+        />
+        <p
+          className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased pt-10"
+          // id="desarrolloweb"
         >
           Desarrollado
         </p>

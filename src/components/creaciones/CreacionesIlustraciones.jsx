@@ -23,11 +23,20 @@ const CreacionesIlustraciones = () => {
   };
 
   return (
-    <>
+    <>  
       <figure className="col-span-1 lg:col-span-2 text-center mt-20">
+        <Image
+          id="grafico"
+          className="col-span-3 m-auto pt-6"
+          src="/svgs/decoradores/seccion-creaciones.svg"
+          alt="Imagen en svg de un diseño de geometrias sencillas con circulos y cuadrados para separar seccion"
+          width={50}
+          height={50}
+          priority
+        />
         <p
           className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased pt-10"
-          id="grafico"
+          // id="grafico"
         >
           Ilustrado
         </p>
@@ -37,7 +46,18 @@ const CreacionesIlustraciones = () => {
         </p>
       </figure>
 
-      <figure className="group text-center">
+      <figure className="flex col-span-1 lg:col-span-2 m-auto">
+        <Image
+          className="col-span-1 lg:col-span-2 m-auto"
+          src="experiencia/ilustraciones/tableta.svg"
+          alt="Imagen en SVG de un diseño de geometrías sencillas, estilo line art. En este caso, una escena donde una persona es vista desde arriba trabajando sobre una tableta gráfica."
+          width={1200}
+          height={1200}
+          priority
+        />
+      </figure>
+
+      {/* <figure className="group text-center">
         <Image
           src="/experiencia/ilustraciones/uno.png"
           alt="gramaphenia Logo"
@@ -62,7 +82,7 @@ const CreacionesIlustraciones = () => {
         <p className="group-hover:text-gray-100 text-blue-200/30 p-1 text-lg font-mono  rounded-md mt-4 bg-gray-600/15">
           A color
         </p>
-      </figure>
+      </figure> */}
       <button
         onClick={openModal}
         className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100"

@@ -32,15 +32,15 @@ const Header = () => {
         </section>
       </header>
 
-      
-        <Image
-          className="col-span-3 m-auto"
-          src="/svgs/decoradores/seccion-creaciones.svg"
-          alt="Imagen en svg de un diseño de geometrias sencillas con circulos y cuadrados para separar seccion"
-          width={50}
-          height={50}
-          priority
-        />
+      {/* <Image
+        id="desarrolloweb"
+        className="col-span-3 m-auto pt-6"
+        src="/svgs/decoradores/seccion-creaciones.svg"
+        alt="Imagen en svg de un diseño de geometrias sencillas con circulos y cuadrados para separar seccion"
+        width={50}
+        height={50}
+        priority
+      /> */}
     </>
   );
 };

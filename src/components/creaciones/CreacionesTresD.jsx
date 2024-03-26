@@ -49,37 +49,23 @@ const CreacionesTresD = () => {
         </p>
       </figure>
 
-      {/* <figure className="group text-center">
+      <figure className="flex col-span-1 lg:col-span-2 m-auto">
         <Image
-          src="/experiencia/3d/uno.png"
-          alt="gramaphenia Logo"
-          width={500}
-          height={500}
+          className="col-span-1 lg:col-span-2 m-auto"
+          src="/experiencia/3d/tres-d.svg"
+          alt="Imagen en svg de un diseño de geometrias sencillas. En este caso un teclado un, raton inalambrico y un par de manos sobre el primero."
+          width={1200}
+          height={1200}
           priority
-          className="border-2 opacity-80 hover:opacity-100 border-dotted border-gray-600 hover:border-gray-400 rounded-lg cursor-pointer"
         />
-        <p className="group-hover:text-gray-100 text-blue-200/30 p-1 text-lg font-mono  rounded-md mt-4 bg-gray-600/15">
-          Mobiliarios
-        </p>
       </figure>
-      <figure className="group text-center">
-        <Image
-          src="/experiencia/3d/tres.png"
-          alt="gramaphenia Logo"
-          width={500}
-          height={500}
-          priority
-          className="border-2 opacity-80 hover:opacity-100 border-dotted border-gray-600 hover:border-gray-400 rounded-lg cursor-pointer"
-        />
-        <p className="group-hover:text-gray-100 text-blue-200/30 p-1 text-lg font-mono  rounded-md mt-4 bg-gray-600/15">
-          Personajes
-        </p>
-      </figure> */}
+
+     
       <button
         onClick={openModal}
         className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100"
       >
-        Más Trabajos
+        Assets
       </button>
       {modalOpen && (
         <div className="modal m-auto col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-50 backdrop-blur-lg">

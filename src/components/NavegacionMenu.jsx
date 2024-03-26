@@ -88,15 +88,15 @@ export default function NavegacionMenu() {
             isModalOpen ? "text-amber-100 " : "text-gray-500 p-4 hover:text-gray-200 hover:backdrop-blur-sm"
           }`}
         >
-          <span className="relative hover:bg-gray-600/30 px-4 py-3 rounded-lg cursor-pointer">
-             Creaciones <span className="text-amber-400/90 text-base">↘</span>
+          <span className="relative  hover:bg-gray-600/30 px-4 py-3 rounded-lg cursor-pointer backdrop-blur-sm ">
+             Creaciones <span className="text-amber-400/90  text-base">↘</span>
           </span>
         </li>
 
-        <li className="hidden lg:block text-gray-500 hover:text-white backdrop-blur-sm hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-2">
+        <li className="hidden lg:block text-gray-500 hover:text-white hover:backdrop-blur-sm hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-2">
           Código
         </li>
-        <li className="hidden lg:block text-gray-500 hover:text-white backdrop-blur-sm hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-10">
+        <li className="hidden lg:block text-gray-500 hover:text-white hover:backdrop-blur-sm hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-10">
           Estudio
         </li>
         {/* <li className="cursor-pointer">

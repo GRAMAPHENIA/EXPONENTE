@@ -3,7 +3,7 @@ import Image from "next/image";
 const DecoradorPerfil = () => {
   return (
     <>
-      <section className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+      <section className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
         <Image
           className="flex justify-center align-middle col-span-1 lg:col-span-2 mx-auto lg:mx-0"
           src="/svgs/decoradores/decorador-estudio.svg"
@@ -24,6 +24,12 @@ const DecoradorPerfil = () => {
             <span className="text-amber-100 font-light">Perfil</span>.
           </p>
         </figure>
+      </section>
+
+      <section className="w-[600px] col-span-3 m-auto pt-20">
+        <p className="text-slate-400 text-2xl font-extralight text-pretty  border border-slate-500 rounded-lg p-4">
+          Nacido en julio de 1981, fui criado en el conurbano Bonaerense. Cursé estudios básicos de computación. Me aficione a las artes y la tecnología con dedicación asíncrona. Mas las vistas y perspectivas puestas en la concentración diaria, me dieron como objeto de estudio actual la tecnologia.
+        </p>
       </section>
     </>
   );

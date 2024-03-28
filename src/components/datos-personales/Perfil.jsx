@@ -3,7 +3,7 @@ import Image from "next/image";
 const DecoradorPerfil = () => {
   return (
     <>
-      <section className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
+      <section className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
         <Image
           className="flex justify-center align-middle col-span-1 lg:col-span-2 mx-auto lg:mx-0"
           src="/svgs/decoradores/decorador-estudio.svg"
@@ -25,12 +25,31 @@ const DecoradorPerfil = () => {
           </p>
         </figure>
       </section>
-
-      <section className="w-[600px] col-span-3 m-auto pt-20">
-        <p className="text-slate-400 text-2xl font-extralight text-pretty  border border-slate-500 rounded-lg p-4">
-          Nacido en julio de 1981, fui criado en el conurbano Bonaerense. Cursé estudios básicos de computación. Me aficione a las artes y la tecnología con dedicación asíncrona. Mas las vistas y perspectivas puestas en la concentración diaria, me dieron como objeto de estudio actual la tecnologia.
+      <Image
+        className="col-span-3 m-auto rounded-full"
+        src="/foto-perfil.svg"
+        alt="imagen del logo de la empresa"
+        width="300"
+        height="300"
+        priority={true}
+      />
+      <section className="w-[800px] col-span-3 m-auto pt-10">
+        <p className="text-slate-400 text-lg font-extralight text-center text-pretty p-4">
+          Nacido en julio de 1981, me fui desarrollando hasta poder expandir mi
+          perspectiva geográfica. Cursé estudios básicos de computación. Me
+          aficioné a las artes y la tecnología con dedicación asíncrona. Mas las
+          vistas y perspectivas puestas en la concentración diaria, me dieron
+          como objeto de estudio actual, la programación, la ilustración digital
+          y el modelado 3D.
         </p>
       </section>
+
+      <button
+        // onClick={openModal}
+        className=" bg-zinc-800/30 hover:bg-zinc-800/50 backdrop-blur-sm px-4 py-2  mt-20 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100"
+      >
+        Detalles
+      </button>
     </>
   );
 };

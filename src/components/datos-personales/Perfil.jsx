@@ -26,7 +26,7 @@ const DecoradorPerfil = () => {
         </figure>
       </section>
       <Image
-        className="col-span-3 m-auto rounded-full"
+        className="col-span-3 m-auto rounded-full bg-slate-300/10  p-4"
         src="/foto-perfil.svg"
         alt="imagen del logo de la empresa"
         width="300"

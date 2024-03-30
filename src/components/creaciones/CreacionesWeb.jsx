@@ -45,7 +45,7 @@ const CreacionesWeb = () => {
           Desarrollado
         </p>
         <p className="text-balance font-normal text-gray-500 w-auto lg:w-[300px] lg:m-auto">
-          Tomar esta ruta para descubrir los detalles del{" "}
+          Ruta para descubrir los detalles del{" "}
           <span className="text-amber-100 font-light">Desarrollo Web</span>.
         </p>
       </figure>
@@ -63,7 +63,7 @@ const CreacionesWeb = () => {
 
       <button
         onClick={openModal}
-        className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 backdrop-blur-sm px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100"
+        className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100"
       >
         Trabajos Realizados
       </button>

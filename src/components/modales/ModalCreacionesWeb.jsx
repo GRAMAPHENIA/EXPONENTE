@@ -32,11 +32,11 @@ const ModalCreacionesWeb = () => {
   return (
     <>
       <section className="flex flex-col lg:grid lg:grid-cols-4 h-full w-auto">
-        <h2 className="col-span-4 text-amber-100 text-4xl lg:text-9xl font-black">
-          Portfolio
+        <h2 className="col-span-4 text-gray-500 text-4xl lg:text-8xl font-black">
+          Realizados Para
         </h2>
         <h3 className="col-span-4 font-extralight text-amber-200 text-xl lg:text-2xl mb-20">
-          clientes
+          otras personas
         </h3>
         {figuresData.map((figure, index) => (
           <figure key={index} className="group text-center col-span-1 mx-4">

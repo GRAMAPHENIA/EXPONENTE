@@ -22,10 +22,10 @@ const Home = () => {
       <section className="flex justify-center items-center">
         <Creaciones />
       </section>
-      <section className="mt-20 mb-40 flex flex-col">
+      <section className="mt-10 mb-40 flex flex-col">
         <AcercaDe />
       </section>
-      <section className="mt-20 mb-40">
+      <section className="mt-10 mb-40">
         <Estudios />
       </section>
       <Footer />

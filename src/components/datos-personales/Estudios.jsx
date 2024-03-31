@@ -1,6 +1,32 @@
 import Image from "next/image";
 
 const DecoradorEstudios = () => {
+  const tecnologias = {
+    web: [
+      { nombre: "html" },
+      { nombre: "css" },
+      { nombre: "tailwind" },
+      { nombre: "js" },
+      { nombre: "react" },
+      { nombre: "next" },
+      { nombre: "node" },
+      { nombre: "express" },
+    ],
+    ilustracion: [
+      { nombre: "photoshop" },
+      { nombre: "illustrator" },
+      { nombre: "Figma" },
+    ],
+    tresd: [
+      { nombre: "Blender" },
+      { nombre: "Godot" },
+      { nombre: "Unity" },
+      { nombre: "Unreal Engine" },
+    ],
+  };
+
+  console.log(tecnologias);
+
   return (
     <>
       <section className="grid grid-cols-1 lg:grid-cols-3 mb-20">
@@ -15,9 +41,7 @@ const DecoradorEstudios = () => {
         </figure>
       </section>
 
-      <section>
-        
-      </section>
+      <section></section>
     </>
   );
 };

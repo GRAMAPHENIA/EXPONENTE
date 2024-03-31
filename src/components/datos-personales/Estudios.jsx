@@ -1,37 +1,29 @@
-import Image from "next/image";
+import React from "react";
 
 const DecoradorEstudios = () => {
-  const tecnologias = {
-    web: [
-      { nombre: "html" },
-      { nombre: "css" },
-      { nombre: "tailwind" },
-      { nombre: "js" },
-      { nombre: "react" },
-      { nombre: "next" },
-      { nombre: "node" },
-      { nombre: "express" },
-    ],
-    ilustracion: [
-      { nombre: "photoshop" },
-      { nombre: "illustrator" },
-      { nombre: "Figma" },
-    ],
-    tresd: [
-      { nombre: "Blender" },
-      { nombre: "Godot" },
-      { nombre: "Unity" },
-      { nombre: "Unreal Engine" },
-    ],
-  };
-
-  console.log(tecnologias);
+  const tecnologias = [
+    { nombre: "html" },
+    { nombre: "css" },
+    { nombre: "tailwind" },
+    { nombre: "js" },
+    { nombre: "react" },
+    { nombre: "next" },
+    { nombre: "node" },
+    { nombre: "express" },
+    { nombre: "photoshop" },
+    { nombre: "illustrator" },
+    { nombre: "Figma" },
+    { nombre: "Blender" },
+    { nombre: "Godot" },
+    { nombre: "Unity" },
+    { nombre: "Unreal Engine" },
+  ];
 
   return (
     <>
       <section className="grid grid-cols-1 lg:grid-cols-3 mb-20">
-        <figure className="flex flex-col col-span-3 text-center">
-          <p className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased pt-10">
+        <figure className="col-span-3 text-center">
+          <p className="text-4xl lg:text-5xl text-gray-400/80 font-black antialiased md:subpixel-antialiased pt-10">
             Estudios
           </p>
           <p className="text-balance font-normal text-gray-500 w-auto lg:w-[300px] lg:m-auto">
@@ -41,7 +33,18 @@ const DecoradorEstudios = () => {
         </figure>
       </section>
 
-      <section></section>
+      <section className="flex justify-center">
+        <div className="flex flex-wrap justify-center gap-2">
+          {tecnologias.map((tec, index) => (
+            <div
+              key={index}
+              className="border-2 rounded-full border-gray-500/50 p-2 mb-2 text-center text-amber-100 bg-zinc-800/30 backdrop-blur-lg w-36"
+            >
+              {tec.nombre}
+            </div>
+          ))}
+        </div>
+      </section>
     </>
   );
 };

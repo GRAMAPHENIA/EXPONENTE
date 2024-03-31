@@ -89,7 +89,7 @@ export default function NavegacionMenu() {
           }`}
         >
           <span className="relative  hover:bg-gray-600/30 px-4 py-3 rounded-lg cursor-pointer backdrop-blur-sm ">
-             Creaciones <span className="text-gray-200/30  text-base">↘</span>
+             Creaciones <span className="text-amber-100  text-base">∷</span>
           </span>
         </li>
 

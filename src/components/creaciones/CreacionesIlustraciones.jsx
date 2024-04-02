@@ -38,7 +38,7 @@ const CreacionesIlustraciones = () => {
           className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased pt-10"
           // id="grafico"
         >
-          Ilustrado
+          Ilustración
         </p>
         <p className="text-balance font-normal text-gray-500 w-auto lg:w-[300px] lg:m-auto">
           Ruta para descubrir los detalles de las{" "}
@@ -51,8 +51,8 @@ const CreacionesIlustraciones = () => {
           className="col-span-1 lg:col-span-2 m-auto"
           src="experiencia/ilustraciones/tableta.svg"
           alt="Imagen en SVG de un diseño de geometrías sencillas, estilo line art. En este caso, una escena donde una persona es vista desde arriba trabajando sobre una tableta gráfica."
-          width={1200}
-          height={1200}
+          width={600}
+          height={600}
           priority
         />
       </figure>

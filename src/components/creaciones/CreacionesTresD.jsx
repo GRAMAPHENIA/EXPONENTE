@@ -54,8 +54,8 @@ const CreacionesTresD = () => {
           className="col-span-1 lg:col-span-2 m-auto"
           src="/experiencia/3d/tres-d.svg"
           alt="Imagen en svg de un diseño de geometrias sencillas. En este caso un teclado un, raton inalambrico y un par de manos sobre el primero."
-          width={1200}
-          height={1200}
+          width={600}
+          height={600}
           priority
         />
       </figure>

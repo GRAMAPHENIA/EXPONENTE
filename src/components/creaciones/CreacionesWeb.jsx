@@ -42,7 +42,7 @@ const CreacionesWeb = () => {
           className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased pt-10"
           // id="desarrolloweb"
         >
-          Desarrollado
+          Desarrollo
         </p>
         <p className="text-balance font-normal text-gray-500 w-auto lg:w-[300px] lg:m-auto ">
           Ruta para descubrir los detalles del{" "}
@@ -55,8 +55,8 @@ const CreacionesWeb = () => {
           className="col-span-1 lg:col-span-2 m-auto mb-5"
           src="/teclado.svg"
           alt="Imagen en svg de un diseño de geometrias sencillas. En este caso un teclado un, raton inalambrico y un par de manos sobre el primero."
-          width={450}
-          height={450}
+          width={550}
+          height={550}
           priority
         />
       </figure>

@@ -55,8 +55,8 @@ const CreacionesWeb = () => {
           className="col-span-1 lg:col-span-2 m-auto mb-5"
           src="/teclado.svg"
           alt="Imagen en svg de un diseño de geometrias sencillas. En este caso un teclado un, raton inalambrico y un par de manos sobre el primero."
-          width={900}
-          height={900}
+          width={450}
+          height={450}
           priority
         />
       </figure>

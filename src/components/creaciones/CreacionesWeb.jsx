@@ -28,7 +28,7 @@ const CreacionesWeb = () => {
 
   return (
     <>
-      <figure className="col-span-1 lg:col-span-2 text-center">
+      <figure className="col-span-1 lg:col-span-2 text-center mb-5">
         <Image
           id="desarrolloweb"
           className="col-span-3 m-auto pt-6"
@@ -44,7 +44,7 @@ const CreacionesWeb = () => {
         >
           Desarrollado
         </p>
-        <p className="text-balance font-normal text-gray-500 w-auto lg:w-[300px] lg:m-auto">
+        <p className="text-balance font-normal text-gray-500 w-auto lg:w-[300px] lg:m-auto ">
           Ruta para descubrir los detalles del{" "}
           <span className="text-amber-100 font-light">Desarrollo Web</span>.
         </p>
@@ -52,11 +52,11 @@ const CreacionesWeb = () => {
 
       <figure className="flex col-span-1 lg:col-span-2 m-auto">
         <Image
-          className="col-span-1 lg:col-span-2 m-auto"
+          className="col-span-1 lg:col-span-2 m-auto mb-5"
           src="/teclado.svg"
           alt="Imagen en svg de un diseño de geometrias sencillas. En este caso un teclado un, raton inalambrico y un par de manos sobre el primero."
-          width={1200}
-          height={1200}
+          width={900}
+          height={900}
           priority
         />
       </figure>

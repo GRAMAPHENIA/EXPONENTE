@@ -26,23 +26,30 @@ const ModalCreacionesWeb = () => {
       description: "Descripción para Di corato Luthier",
       link: "https://www.dicorato.com.ar/",
     },
-    
   ];
 
   return (
     <>
-      <section className="flex flex-col lg:grid lg:grid-cols-4 h-full w-auto">
+      <section className="">
         <h2 className="col-span-4 text-gray-500 text-4xl lg:text-8xl font-black">
-          Realizados Para
+          Realizado
         </h2>
-        <h3 className="col-span-4 font-extralight text-amber-200 text-xl lg:text-2xl mb-20">
-          otras personas
+        <h3 className="col-span-4 font-extralight text-amber-100 lg:text-xl">
+          más reciente
         </h3>
-        {figuresData.map((figure, index) => (
+
+        <section className="flex flex-col lg:grid lg:grid-cols-4 h-full w-auto items-center" >
+
+          {figuresData.map((figure, index) => (
           <figure key={index} className="group text-center col-span-1 mx-4">
-            <section className="modal-content hover:border-amber-100 border border-gray-600 rounded-md">
+            <section className="modal-content hover:border-amber-100 border border-gray-600 rounded-md mt-20">
               {/* Enlace para la imagen y el icono */}
-              <Link target="_blank" rel="noopener noreferrer" href={figure.link} passHref>
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href={figure.link}
+                passHref
+              >
                 <div className="cursor-pointer">
                   <Image
                     src={figure.src}
@@ -50,7 +57,7 @@ const ModalCreacionesWeb = () => {
                     width={600}
                     height={600}
                     priority
-                    className="rounded-t-md opacity-70  hover:opacity-100"
+                    className="rounded-t-md opacity-70 hover:opacity-100"
                   />
                   <div className="grid grid-cols-2 h-[160px] bg-gray-600/15 backdrop-blur-md rounded-b-md p-2 px-4 pt-5 text-left">
                     <h2 className="text-gray-50 col-span-2 text-lg">
@@ -67,7 +74,12 @@ const ModalCreacionesWeb = () => {
                         </span>
                       </p>
                       {/* Enlace al hacer clic en el icono */}
-                      <Link target="_blank" rel="noopener noreferrer" href={figure.link} passHref>
+                      <Link
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={figure.link}
+                        passHref
+                      >
                         <Image
                           src={
                             hoverStates[index]
@@ -90,6 +102,8 @@ const ModalCreacionesWeb = () => {
             </section>
           </figure>
         ))}
+        </section>
+        
       </section>
     </>
   );

@@ -54,7 +54,7 @@ const DecoradorPerfil = () => {
         // onClick={openModal}
         className="bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2  mt-5 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100"
       >
-        Contacto
+        Laboral
       </button>
     </>
   );

@@ -1,6 +1,29 @@
+"use client";
+
+import ModalPerfil from "@/components/modales/ModalPerfil";
+
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
 const DecoradorPerfil = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  useEffect(() => {
+    if (modalOpen) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
+  }, [modalOpen]);
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
   return (
     <>
       <figure className="col-span-1 lg:col-span-2 text-center">
@@ -39,23 +62,36 @@ const DecoradorPerfil = () => {
           </span>
           . Me aficioné a las{" "}
           <span className="text-amber-100">artes y tecnología</span> con
-          dedicación asíncrona. Las vistas puestas en la 
+          dedicación asíncrona. Las vistas puestas en la
           <span className="text-amber-100"> concentración</span> diaria, me
           dieron como objeto de{" "}
           <span className="text-amber-100">
-            desarrollo y estudio actual, la programación web, la ilustración digital
-            y el modelado 3D
+            desarrollo y estudio actual, la programación web, la ilustración
+            digital y el modelado 3D
           </span>{" "}
           .
         </p>
       </section>
 
       <button
-        // onClick={openModal}
+        onClick={openModal}
         className="bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2  mt-5 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100"
       >
         Laboral
       </button>
+
+      {modalOpen && (
+        <div className="fondo col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-80 backdrop-blur-xl p-10 lg:p-16">
+          <span
+            className="text-xl text-red-500/50 hover:text-red-500 fixed top-0 right-0 mt-16 mr-16 py-[2px] px-[10px] border-2 border-red-500/50 hover:border-red-500 hover:bg-slate-500/20 rounded-full cursor-pointer"
+            onClick={closeModal}
+          >
+            &times;
+          </span>
+
+          <ModalPerfil />
+        </div>
+      )}
     </>
   );
 };

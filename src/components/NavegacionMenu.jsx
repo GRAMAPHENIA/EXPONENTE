@@ -85,31 +85,22 @@ export default function NavegacionMenu() {
           onMouseLeave={handleMouseLeave}
           onClick={handleModalOpen}
           className={`hidden lg:block px-3 py-2 rounded-lg cursor-pointer  ${
-            isModalOpen ? "text-amber-100 " : "text-gray-500 p-4 hover:text-gray-200 hover:backdrop-blur-sm"
+            isModalOpen
+              ? "text-amber-100 "
+              : "text-gray-500 p-4 hover:text-gray-200 hover:backdrop-blur-sm"
           }`}
         >
           <span className="relative  hover:bg-gray-600/30 px-4 py-3 rounded-lg cursor-pointer backdrop-blur-sm ">
-             Creaciones <span className="text-amber-100  text-base">∷</span>
+            Creaciones <span className="text-amber-100  text-base">∷</span>
           </span>
         </li>
 
         <li className="hidden lg:block text-gray-500 hover:text-white hover:backdrop-blur-sm hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-2">
-          Código
+          Perfíl
         </li>
         <li className="hidden lg:block text-gray-500 hover:text-white hover:backdrop-blur-sm hover:bg-gray-600/30 px-4 py-2 rounded-lg cursor-pointer mr-10">
-          Estudio
+          Estudios
         </li>
-        {/* <li className="cursor-pointer">
-          <div className="image-container mr-10 lg:mr-0 animate-pulse ">
-            <Image
-              src="/contact.svg"
-              alt="gramaphenia Logo"
-              width={40}
-              height={40}
-              priority
-            />
-          </div>
-        </li> */}
       </ul>
       {openModal && (
         <div className="modal m-auto col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-50 backdrop-blur-lg">

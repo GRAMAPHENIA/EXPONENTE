@@ -6,7 +6,7 @@ const ModalPerfil = () => {
   return (
     <>
       <section>
-        <figure className="border border-slate-700 p-4">
+        <figure className="border border-slate-700 p-4"> 
           {/* <h2>Perfíl laborals</h2> */}
           <Image
           id="laboral"

@@ -60,7 +60,7 @@ const ModalPerfil = () => {
       cargo: "Mantenimiento y jardinería",
       empresa: "Cabañas Los Teros / Casas Chaura",
       fecha: "2021 - Actualidad",
-      ubicacion: "Longchamps, Pcia. de Buenos Aires.",
+      ubicacion: "El Bolson, Pcia. de Rio negro.",
       responsabilidades: [
         "Encargado de mantenimiento y jardineria. (Uso de Motoguadaña, motosierra y tractor para el pasto)",
         "Manejo de sistema de riego y pileta climatizada.",

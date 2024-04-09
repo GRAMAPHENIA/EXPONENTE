@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const ModalPerfil = () => {
   const experienciasLaborales = [
@@ -13,7 +14,7 @@ const ModalPerfil = () => {
         "Diseño y modelado en 3D.",
         "Edición de videos y musicalización.",
       ],
-      paginaWeb: "https://www.ejemplo.com/proyecto1",
+      // paginaWeb: "https://www.ejemplo.com/proyecto1",
     },
     {
       cargo: "Desarrollo de sitio Web",
@@ -21,7 +22,7 @@ const ModalPerfil = () => {
       fecha: "Marzo de 2024",
       ubicacion: "Longchamps, Pcia. de Rio negro.",
       responsabilidades: ["Ilustracion.", "Diseño.", "Programacion."],
-      paginaWeb: "https://www.ejemplo.com/proyecto2",
+      paginaWeb: "https://dicorato.com.ar",
     },
     {
       cargo: "Desarrollo de sitio Web",
@@ -29,7 +30,7 @@ const ModalPerfil = () => {
       fecha: "Agosto de 2023",
       ubicacion: "El Bolson, Pcia. de Rio negro.",
       responsabilidades: ["Ilustracion.", "Diseño.", "Programacion."],
-      paginaWeb: "https://www.ejemplo.com/proyecto3",
+      paginaWeb: "https://elmetodoadulma.com/",
     },
     {
       cargo: "Desarrollo de sitio Web",
@@ -72,7 +73,7 @@ const ModalPerfil = () => {
 
   return (
     <>
-      <article className="m-auto bg-slate-700/10 backdrop-blur-lg ">
+      <article className="m-auto bg-[var(--dark)] ">
         <figure className="border border-slate-700 px-40 py-10 rounded-lg">
           <Image
             id="laboral"
@@ -92,31 +93,27 @@ const ModalPerfil = () => {
               <h3 className="text-2xl font-bold py-2 text-blue-200/70">
                 {experiencia.cargo}
               </h3>
-
-              <p className="font-bold py-2 text-slate-300">
+              <p className="py-2 text-slate-300">
                 <span className="text-amber-100">{experiencia.empresa}</span>{" "}
                 {experiencia.fecha}. {experiencia.ubicacion}
               </p>
-
-              {experiencia.paginaWeb ? (
-                <p className="font-bold py-2 text-slate-300">
-                  <a
-                    href={experiencia.paginaWeb}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Visitar sitio
-                  </a>
-                </p>
-              ) : (
-                <p className="font-bold py-2 text-slate-300"></p>
-              )}
-
-              <ul className="text-gray-400 list-disc">
+              <ul className="text-gray-400 list-disc mb-8">
                 {experiencia.responsabilidades.map((responsabilidad, i) => (
                   <li key={i}>{responsabilidad}</li>
                 ))}
-              </ul>
+              </ul>{" "}
+              {experiencia.paginaWeb ? (
+                <Link
+                  className="w-28 mt-8 py-1 px-2 text-center text-blue-400 hover:text-amber-100 bg-gray-700/20 border border-gray-500/50 rounded-md"
+                  href={experiencia.paginaWeb}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Sitio Web
+                </Link>
+              ) : (
+                <p></p>
+              )}
             </section>
           ))}
         </figure>

@@ -38,7 +38,7 @@ const ModalPerfil = () => {
       fecha: "Febrero de 2023",
       ubicacion: "El Bolson, Pcia. de Rio negro.",
       responsabilidades: ["Ilustracion.", "Diseño.", "Programacion."],
-      paginaWeb: "https://www.ejemplo.com/proyecto4",
+      paginaWeb: "https://babushka.conceptohexagono.com/",
     },
     {
       cargo: "Desarrollo de sitio Web",
@@ -46,7 +46,7 @@ const ModalPerfil = () => {
       fecha: "Enero de 2023",
       ubicacion: "El Bolson, Pcia. de Rio negro.",
       responsabilidades: ["Ilustracion.", "Diseño.", "Programacion."],
-      paginaWeb: "https://www.ejemplo.com/proyecto5",
+      paginaWeb: "https://conceptohexagono.com/",
     },
     {
       cargo: "Mantenimiento",

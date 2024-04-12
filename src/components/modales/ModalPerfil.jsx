@@ -104,12 +104,12 @@ const ModalPerfil = () => {
               </ul>{" "}
               {experiencia.paginaWeb ? (
                 <Link
-                  className="w-28 mt-8 py-1 px-2 text-center text-blue-400 hover:text-amber-100 bg-gray-700/20 border border-gray-500/50 rounded-md"
+                  className="w-28 mt-8 py-1 px-2 text-center text-blue-400 hover:text-amber-100 bg-gray-700/20 border border-gray-500/50 rounded-md text-xs"
                   href={experiencia.paginaWeb}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Sitio Web
+                  sitio web
                 </Link>
               ) : (
                 <p></p>

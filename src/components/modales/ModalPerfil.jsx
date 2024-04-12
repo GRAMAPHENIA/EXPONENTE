@@ -53,19 +53,59 @@ const ModalPerfil = () => {
       empresa: "El Mirador Hostel,",
       fecha: "Enero de 2023 - Marzo de 2023",
       ubicacion: "El Bolson, Pcia. de Rio negro.",
-      responsabilidades: ["Mantenimiento.", "Limpieza.", "Recepcion."],
+      responsabilidades: ["Mantenimiento.", "Limpieza."],
       // paginaWeb: null, // No hay página web asociada
     },
     {
       cargo: "Mantenimiento y jardinería",
       empresa: "Cabañas Los Teros / Casas Chaura",
-      fecha: "2021 - Actualidad",
+      fecha: "2021 - Diciembre 2022",
       ubicacion: "El Bolson, Pcia. de Rio negro.",
       responsabilidades: [
         "Encargado de mantenimiento y jardineria. (Uso de Motoguadaña, motosierra y tractor para el pasto)",
         "Manejo de sistema de riego y pileta climatizada.",
         "Atencion y recepcion del turista.",
         "Tareas de limpieza.",
+      ],
+      // paginaWeb: "https://www.ejemplo.com/proyecto6",
+    },
+    {
+      cargo: "Refugiero",
+      empresa: "Refugio Los Laguitos",
+      fecha: "Septiembre 2020 - Abril 2021",
+      ubicacion: "El Bolson, Pcia. de Rio negro.",
+      responsabilidades: [
+        "Tareas de mantenimiento",
+        "Recepcion y atencion al turista",
+        "Tareas de cocina y limpieza.",
+        "Armado y mantenimiento de la huerta",
+      ],
+      // paginaWeb: "https://www.ejemplo.com/proyecto6",
+    },
+    {
+      cargo: "Administrativo - Atencion al publico",
+      empresa: "Camping Hue Nain",
+      fecha: "Enero 2020 - Marzo 2020",
+      ubicacion: "El Bolson, Pcia. de Rio negro.",
+      responsabilidades: [
+        "Tareas de mantenimiento",
+        "Recepcion y atencion al turista",
+        "Tareas de cocina y limpieza.",
+        "Atencion del almacen del camping",
+      ],
+      // paginaWeb: "https://www.ejemplo.com/proyecto6",
+    },
+    {
+      cargo: "Refugiero",
+      empresa: "Refugio Hielo Azul",
+      fecha:
+        "Temporadas de verano de 2015-2016-2018-2019 y mes de Marzo de 2020",
+      ubicacion: "El Bolson, Pcia. de Rio negro.",
+      responsabilidades: [
+        "Tareas de mantenimiento",
+        "Recepcion y atencion al turista",
+        "Tareas de cocina y limpieza.",
+        "Tareas de campo, acopio de leña",
       ],
       // paginaWeb: "https://www.ejemplo.com/proyecto6",
     },
@@ -104,12 +144,12 @@ const ModalPerfil = () => {
               </ul>{" "}
               {experiencia.paginaWeb ? (
                 <Link
-                  className="w-28 mt-8 py-1 px-2 text-center text-blue-400 hover:text-amber-100 bg-gray-700/20 border border-gray-500/50 rounded-md text-xs"
+                  className="w-28 mt-8 py-1 px-2 text-center text-blue-400 hover:text-amber-100 bg-gray-700/20 hover:bg-gray-700/60 border border-gray-500/50 rounded-md text-xs"
                   href={experiencia.paginaWeb}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  sitio web
+                  visitar
                 </Link>
               ) : (
                 <p></p>

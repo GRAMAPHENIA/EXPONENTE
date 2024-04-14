@@ -59,7 +59,7 @@ const CreacionesWeb = () => {
           height={550}
           priority
         />
-      </figure> 
+      </figure>
 
       <button
         onClick={openModal}

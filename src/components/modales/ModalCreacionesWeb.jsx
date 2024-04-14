@@ -35,7 +35,7 @@ const ModalCreacionesWeb = () => {
           Realizado
         </h2>
         <h3 className="col-span-4 font-extralight text-amber-100 lg:text-xl">
-          más reciente
+          recientemente
         </h3>
 
         <section className="flex flex-col lg:grid lg:grid-cols-4 h-full w-auto items-center" >

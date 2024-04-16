@@ -65,7 +65,7 @@ const CreacionesWeb = () => {
         onClick={openModal}
         className="col-span-1 lg:col-span-2 bg-zinc-800/30 hover:bg-zinc-800/50 px-4 py-2 rounded-xl border border-gray-800 w-[200px] m-auto hover:text-amber-100"
       >
-        Trabajos Realizados
+        Trabajos realizados
       </button>
       {modalOpen && (
         <div className="fondo col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-80 backdrop-blur-xl p-10 lg:p-16">

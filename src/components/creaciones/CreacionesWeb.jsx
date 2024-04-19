@@ -76,7 +76,7 @@ const CreacionesWeb = () => {
             &times;
           </span>
 
-          <ModalCreacionesWeb />
+          <ModalCreacionesWeb /> 
         </div>
       )}
     </>

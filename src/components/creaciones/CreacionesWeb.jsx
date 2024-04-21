@@ -50,7 +50,7 @@ const CreacionesWeb = () => {
         </p>
       </figure> 
 
-      <figure className="flex col-span-1 lg:col-span-2 m-auto">
+      <figure className="flex col-span-1 lg:col-span-2 m-auto"> 
         <Image
           className="col-span-1 lg:col-span-2 m-auto mb-5"
           src="/teclado.svg"

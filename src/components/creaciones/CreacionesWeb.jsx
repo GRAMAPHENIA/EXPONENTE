@@ -48,7 +48,7 @@ const CreacionesWeb = () => {
           Ruta para descubrir los detalles del{" "}
           <span className="text-amber-100 font-light">Desarrollo Web</span>.
         </p>
-      </figure> 
+      </figure>  
 
       <figure className="flex col-span-1 lg:col-span-2 m-auto"> 
         <Image

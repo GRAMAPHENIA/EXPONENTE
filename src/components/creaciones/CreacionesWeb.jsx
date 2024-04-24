@@ -40,7 +40,7 @@ const CreacionesWeb = () => {
         />
         <p
           className="text-4xl lg:text-5xl text-gray-400/80 font-black text-center antialiased md:subpixel-antialiased pt-10" 
-          // id="desarrolloweb"
+          // id="desarrolloweb" 
         >
           Desarrollo
         </p>

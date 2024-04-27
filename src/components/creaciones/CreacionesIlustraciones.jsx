@@ -1,5 +1,7 @@
 "use client";
 
+import ModalIlustraciones from "@/components/modales/ModalIlustraciones.jsx";
+
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
@@ -73,6 +75,7 @@ const CreacionesIlustraciones = () => {
               &times;
             </span>
           </div>
+           <ModalIlustraciones/>
         </div>
       )}
     </>

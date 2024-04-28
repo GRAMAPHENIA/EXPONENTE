@@ -14,17 +14,17 @@ const ModalIlustraciones = () => {
   const figuresData = [
     {
       src: "/svgs/ilustraciones/uno.svg",
-      alt: "gramaphenia Logo",
-      title: "Concepto Hexagono",
-      description: "Sitio dedicado al diseño, web y 3D",
-      link: "https://conceptohexagono.com/",
+      alt: "Svg de un cerdo mirando de frente a la camara",
+      title: "Cerdo",
+      description: "Svg's creados para lista de videos de YouTube.",
+      link: "https://www.youtube.com/channel/UC4R1sI_p6Q5_qjzlUdmgmjw",
     },
     {
-      src: "/svgs/ilustraciones/uno.svg",
-      alt: "gramaphenia Logo",
-      title: "Di corato Luthier",
-      description: "Descripción para Di corato Luthier",
-      link: "https://www.dicorato.com.ar/",
+      src: "/svgs/ilustraciones/dos.svg",
+      alt: "Svg de un cordero",
+      title: "Cordero",
+      description: "Svg's creados para lista de videos de YouTube.",
+      link: "https://www.youtube.com/channel/UC4R1sI_p6Q5_qjzlUdmgmjw",
     },
   ];
 

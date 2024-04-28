@@ -26,6 +26,13 @@ const ModalIlustraciones = () => {
       description: "Svg's creados para lista de videos de YouTube.",
       link: "https://www.youtube.com/channel/UC4R1sI_p6Q5_qjzlUdmgmjw",
     },
+    {
+        src: "/svgs/ilustraciones/tres.svg",
+        alt: "Svg de un cordero",
+        title: "Fuego",
+        description: "Svg's creados para lista de videos de YouTube.",
+        link: "https://www.youtube.com/channel/UC4R1sI_p6Q5_qjzlUdmgmjw",
+      },
   ];
 
   return (
@@ -63,7 +70,7 @@ const ModalIlustraciones = () => {
                     <h2 className="text-gray-50 col-span-2 text-lg">
                       {figure.title}
                     </h2>
-                    <p className="text-gray-400 col-span-2 pb-4 text-md">
+                    <p className="text-gray-400 col-span-2 pb-4 text-md font-extralight">
                       {figure.description}
                     </p>
                     <div className="flex w-full col-span-2 justify-between">

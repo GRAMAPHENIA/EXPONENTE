@@ -33,6 +33,13 @@ const ModalIlustraciones = () => {
         description: "Svg's creados para lista de videos de YouTube.",
         link: "https://www.youtube.com/channel/UC4R1sI_p6Q5_qjzlUdmgmjw",
       },
+      {
+        src: "/svgs/ilustraciones/cuatro.svg",
+        alt: "Svg de una tijera de poda",
+        title: "Tijeras",
+        description: "Svg's creados para lista de videos de YouTube.",
+        link: "https://www.youtube.com/channel/UC4R1sI_p6Q5_qjzlUdmgmjw",
+      },
   ];
 
   return (

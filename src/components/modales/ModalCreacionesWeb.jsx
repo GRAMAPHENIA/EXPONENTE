@@ -62,7 +62,7 @@ const ModalCreacionesWeb = () => {
                       <h2 className="text-gray-50 col-span-2 text-lg">
                         {figure.title}
                       </h2>
-                      <p className="text-gray-400 col-span-2 pb-4 text-md">
+                      <p className="text-gray-400 col-span-2 pb-4 text-md font-extralight">
                         {figure.description}
                       </p>
                       <div className="flex w-full col-span-2 justify-between">

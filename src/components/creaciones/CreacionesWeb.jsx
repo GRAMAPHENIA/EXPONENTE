@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
 const CreacionesWeb = () => {
-  const [modalOpen, setModalOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false); 
 
   useEffect(() => {
     if (modalOpen) {

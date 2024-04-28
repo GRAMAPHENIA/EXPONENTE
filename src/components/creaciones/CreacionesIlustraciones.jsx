@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 
 const CreacionesIlustraciones = () => {
-  const [modalOpen, setModalOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false); 
 
   useEffect(() => {
     if (modalOpen) {
@@ -66,10 +66,10 @@ const CreacionesIlustraciones = () => {
         Catálogo
       </button>
       {modalOpen && (
-        <div className="modal m-auto col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-50 backdrop-blur-lg">
+        <div className="fondo col-span-2 fixed inset-0 flex items-center justify-center z-[999] overflow-auto bg-black bg-opacity-80 backdrop-blur-xl p-10 lg:p-16">
           <div className="modal-content grid grid-cols-4 grid-rows-4">
             <span
-              className="text-xl text-gray-300/50 fixed top-0 right-0 mt-4 mr-4 py-[2px] px-[10px] border-2 border-gray-300/20 hover:bg-slate-500/20 rounded-full cursor-pointer"
+              className="text-xl text-red-500/50 hover:text-red-500 fixed top-0 right-0 mt-16 mr-16 py-[2px] px-[10px] border-2 border-red-500/50 hover:border-red-500 hover:bg-slate-500/20 rounded-full cursor-pointer"
               onClick={closeModal}
             >
               &times;

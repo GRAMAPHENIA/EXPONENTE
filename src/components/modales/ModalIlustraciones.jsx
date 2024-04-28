@@ -13,14 +13,14 @@ const ModalIlustraciones = () => {
 
   const figuresData = [
     {
-      src: "/experiencia/web/uno.svg",
+      src: "/svgs/ilustraciones/uno.svg",
       alt: "gramaphenia Logo",
       title: "Concepto Hexagono",
       description: "Sitio dedicado al diseño, web y 3D",
       link: "https://conceptohexagono.com/",
     },
     {
-      src: "/experiencia/web/dos.svg",
+      src: "/svgs/ilustraciones/uno.svg",
       alt: "gramaphenia Logo",
       title: "Di corato Luthier",
       description: "Descripción para Di corato Luthier",

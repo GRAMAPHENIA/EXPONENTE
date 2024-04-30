@@ -53,7 +53,7 @@ const ModalIlustraciones = () => {
     <>
       <section className="h-screen">
         <section className="my-20">
-          <h2 className="col-span-4 text-gray-500 text-4xl lg:text-8xl font-black">
+          <h2 className="col-span-4 text-gray-500 text-4xl lg:text-8xl font-black"> 
             Realizado
           </h2>
           <h3 className="col-span-4 font-extralight text-amber-100 lg:text-xl">

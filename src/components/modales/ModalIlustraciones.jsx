@@ -70,7 +70,7 @@ const ModalIlustraciones = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href={figure.link}
-                  passHref
+                  passHref  
                 >
                   <div className="cursor-pointer">
                     <Image

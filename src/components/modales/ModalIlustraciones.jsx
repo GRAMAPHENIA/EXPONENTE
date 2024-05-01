@@ -42,8 +42,8 @@ const ModalIlustraciones = () => {
     },
     {
       src: "/svgs/ilustraciones/cinco.svg",
-      alt: "Svg de un teclado y unas manos con unas rutas a los costados",
-      title: "Teclado Hexágono",
+      alt: "Svg de una casa",
+      title: "Casa",
       description: "Svg's creados para el sitio web de Hexágono.",
       link: "https://www.conceptohexagono.com",
     },

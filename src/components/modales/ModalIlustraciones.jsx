@@ -47,13 +47,20 @@ const ModalIlustraciones = () => {
       description: "Svg's creados para el sitio web de Hexágono.",
       link: "https://www.conceptohexagono.com",
     },
+    // {
+    //   src: "/svgs/ilustraciones/seis.svg",
+    //   alt: "Svg de una casa",
+    //   title: "Casa",
+    //   description: "Svg's creados para el sitio web de Hexágono.",
+    //   link: "https://www.conceptohexagono.com",
+    // },
   ];
 
   return (
     <>
       <section className="h-screen">
         <section className="my-20">
-          <h2 className="col-span-4 text-gray-500 text-4xl lg:text-8xl font-black"> 
+          <h2 className="col-span-4 text-gray-500 text-4xl lg:text-8xl font-black">
             Realizado
           </h2>
           <h3 className="col-span-4 font-extralight text-amber-100 lg:text-xl">
@@ -70,7 +77,7 @@ const ModalIlustraciones = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href={figure.link}
-                  passHref  
+                  passHref
                 >
                   <div className="cursor-pointer">
                     <Image

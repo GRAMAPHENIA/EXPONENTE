@@ -45,7 +45,7 @@ const ModalIlustraciones = () => {
       alt: "Svg de una casa",
       title: "Casa",
       description: "Svg's creados para el sitio web de Hexágono.",
-      link: "https://www.conceptohexagono.com",
+      link: "https://www.conceptohexagono.com", 
     },
     // {
     //   src: "/svgs/ilustraciones/seis.svg",

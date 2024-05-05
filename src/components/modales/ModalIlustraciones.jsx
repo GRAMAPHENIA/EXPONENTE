@@ -41,7 +41,7 @@ const ModalIlustraciones = () => {
       link: "https://www.youtube.com/channel/UC4R1sI_p6Q5_qjzlUdmgmjw",
     },
     {
-      src: "/svgs/ilustraciones/cinco.svg",
+      src: "/svgs/ilustraciones/cinco.svg", 
       alt: "Svg de una casa",
       title: "Casa",
       description: "Svg's creados para el sitio web de Hexágono.",

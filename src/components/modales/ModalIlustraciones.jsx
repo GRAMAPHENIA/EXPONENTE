@@ -56,10 +56,17 @@ const ModalIlustraciones = () => {
     },
     {
       src: "/svgs/ilustraciones/siete.svg",
-      alt: "Svg de un luthier trabajando",
-      title: "Luthier",
-      description: "Svg's creados para el sitio web de Di corato luthier.",
-      link: "https://www.dicorato.com.ar",
+      alt: "Svg de una pareja de ancianos",
+      title: "Pareja de Ancianos",
+      description: "Svg's creados para el sitio web de El método ADULMA.",
+      link: "https://www.elmetodoadulma.com",
+    },
+    {
+      src: "/svgs/ilustraciones/ocho.svg",
+      alt: "Svg de una mano que sostiene a un bordado",
+      title: "Bordado",
+      description: "Svg's creados para el sitio web de concepto hexágono.",
+      link: "https://www.conceptohexagono.com",
     },
   ];
 

@@ -13,7 +13,7 @@ const ModalCreacionesWeb = () => {
 
   const figuresData = [
     {
-      src: "/experiencia/web/uno.svg",
+      src: "/experiencia/web/uno.svg", 
       alt: "gramaphenia Logo",
       title: "Concepto Hexagono",
       description: "Sitio dedicado al diseño, web y 3D",

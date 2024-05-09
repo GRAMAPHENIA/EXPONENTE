@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const ModalCreacionesWeb = () => {
-  const [hoverStates, setHoverStates] = useState(Array(2).fill(false));
+  const [hoverStates, setHoverStates] = useState(Array(2).fill(false)); 
 
   const handleHover = (index, isHovered) => { 
     const newHoverStates = [...hoverStates];

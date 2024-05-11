@@ -5,7 +5,7 @@ import { useState } from "react";
 const ModalCreacionesWeb = () => {
   const [hoverStates, setHoverStates] = useState(Array(2).fill(false)); 
 
-  const handleHover = (index, isHovered) => { 
+  const handleHover = (index, isHovered) => {  
     const newHoverStates = [...hoverStates];
     newHoverStates[index] = isHovered;
     setHoverStates(newHoverStates);

@@ -47,7 +47,7 @@ const DecoradorPerfil = () => {
 
       <Image
         className="col-span-3 m-auto rounded-full bg-gray-600/10 p-4 border-2 border-gray-700/30 mt-5"
-        src="/foto-perfil.svg"
+        src="/foto-perfil-dos.svg"
         alt="imagen del logo de la empresa"
         width="200"
         height="200"

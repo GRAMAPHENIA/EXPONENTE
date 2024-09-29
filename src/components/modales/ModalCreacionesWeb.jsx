@@ -17,7 +17,7 @@ const ModalCreacionesWeb = () => {
       alt: "gramaphenia Logo",
       title: "Concepto Hexagono",
       description: "Sitio dedicado al diseño, web y 3D",
-      link: "https://conceptohexagono.com/",
+      link: "https://hexagono.xyz/",
     }, 
     {
       src: "/experiencia/web/dos.svg",

@@ -5,7 +5,7 @@ const Header = () => {
     <>
       <header className="pt-14 lg:pt-5 lg:mb-40">
         <figure className="">
-          <p className="flex justify-center align-middle text-balance text-4xl w-[300px] lg:text-7xl text-gray-300 font-black text-center lg:text-left mt-6 lg:mt-[16%] lg:w-[1200px] tracking-tight antialiased md:subpixel-antialiased">
+          <p className="flex justify-center align-middle text-balance text-4xl w-[300px] lg:text-7xl text-gray-300 font-black text-center lg:text-center mt-6 lg:mt-[16%] lg:w-[1200px] tracking-tight antialiased md:subpixel-antialiased">
             Desarrollo Web, Ilustraciones y 3D.
           </p>
         </figure>
@@ -31,16 +31,6 @@ const Header = () => {
           </button>
         </section>
       </header>
-
-      {/* <Image
-        id="desarrolloweb"
-        className="col-span-3 m-auto pt-6"
-        src="/svgs/decoradores/seccion-creaciones.svg"
-        alt="Imagen en svg de un diseño de geometrias sencillas con circulos y cuadrados para separar seccion"
-        width={50}
-        height={50}
-        priority
-      /> */}
     </>
   );
 };

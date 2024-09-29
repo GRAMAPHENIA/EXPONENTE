@@ -91,7 +91,10 @@ export default function NavegacionMenu() {
           }`}
         >
           <span className="relative  hover:bg-gray-600/30 px-4 py-3 rounded-lg cursor-pointer backdrop-blur-sm ">
-            Creaciones <span className="text-amber-100  text-base">∷</span>
+            Creaciones{" "}
+            <span className="text-amber-100  text-base ">
+              <span className="-rotate-12">›</span>{" "}
+            </span>
           </span>
         </li>
 
